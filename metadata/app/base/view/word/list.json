@@ -1,0 +1,18 @@
+{
+  "readOnly": true,
+  "label": "List",
+  "options": {
+    "listLimit": 1000
+  },
+  "attrs": [
+    {
+      "name": "value",
+      "orderNumber": 10
+    },
+    {
+      "name": "language",
+      "eagerLoading": true,
+      "orderNumber": 20
+    }
+  ]
+}

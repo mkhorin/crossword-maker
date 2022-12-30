@@ -12,6 +12,31 @@ module.exports = {
         targets: {
             type: 'all'
         }
+    }, {
+        description: 'Guest can read data',
+        roles: 'guest',
+        type: 'allow',
+        actions: 'read',
+        targets: [{
+            type: 'view',
+            class: 'puzzle',
+            view: [
+                'public',
+                'publicList'
+            ]
+        }, {
+            type: 'view',
+            class: 'language',
+            view: 'public'
+        }, {
+            type: 'view',
+            class: 'theme',
+            view: 'public'
+        }, {
+            type: 'view',
+            class: 'clue',
+            view: 'list'
+        }]
     }],
 
     permissions: {

@@ -1,0 +1,10 @@
+{
+  "name": "portal",
+  "version": "1.0.0",
+  "author": "Maxim Khorin",
+  "license": "MIT",
+  "repository": {},
+  "dependencies": {
+    "vue": "^3.2.0"
+  }
+}

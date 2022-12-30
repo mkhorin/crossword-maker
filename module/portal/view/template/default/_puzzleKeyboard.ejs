@@ -1,0 +1,10 @@
+<template id="puzzleKeyboard">
+  <template v-if="active">
+    <div class="puzzle-keyboard">
+      <template v-for="letter of getLetters()" :key="letter">
+        <div @click="onKey(letter)" class="puzzle-keyboard-key">{{letter}}</div>
+      </template>
+    </div>
+  </template>
+  <template v-else></template>
+</template>

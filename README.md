@@ -1,10 +1,22 @@
-# Evado Boilerplate App
+# Crossword Maker
 
-Lightweight and feature-rich template built on
-[Evado Declarative Framework](https://github.com/mkhorin/evado)
-for rapid web app development.
+This is a web app for creating and solving crossword puzzles:
 
-![Evado Declarative Framework](https://github.com/mkhorin/evado/blob/master/doc/evado-framework-steps.jpg)
+- contains a large database of words;
+- provides support for different languages;
+- allows you to create thematic crosswords;
+- edits puzzles, words, clues, themes and languages;
+- allows multiple clues per word;
+- implements both manual and automatic filling of crossword grids;
+- imports new words and clues from prepared lists;
+- export crossword puzzles to PDF.
+
+The Crossword Maker is powered by 
+[Evado Declarative Framework](https://github.com/mkhorin/evado), 
+which allows you to modify not only data, 
+but also the whole app using web interface.
+
+[![Free Crossword Puzzle Maker](doc/crossword-maker.png)](https://mkhorin.github.io/evado-site/)
 
 ## Docker installation
 

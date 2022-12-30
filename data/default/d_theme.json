@@ -1,0 +1,42 @@
+[
+ {
+  "_id": {
+   "$oid": "635b78020f075c49f071531a"
+  },
+  "_class": "theme",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "name": "Space",
+  "description": "Outer space",
+  "_createdAt": {
+   "$date": "2022-10-28T06:34:42.868Z"
+  },
+  "_editor": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "_updatedAt": {
+   "$date": "2022-11-28T00:51:19.656Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "63840647ec5c429a13c539ba"
+  },
+  "_class": "theme",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "name": "Medical",
+  "description": "Everything related to medicine",
+  "_createdAt": {
+   "$date": "2022-11-28T00:52:23.397Z"
+  },
+  "_editor": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "_updatedAt": {
+   "$date": "2022-11-29T05:40:33.473Z"
+  }
+ }
+]

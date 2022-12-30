@@ -1,0 +1,28 @@
+<!-- _part/asset/script/custom -->
+<% if (typeof meta !== 'undefined') { %>
+
+<script src="app/script/FormHandler.js"></script>
+
+<script src="office/script/puzzle/Puzzle.js"></script>
+<script src="office/script/puzzle/PuzzleBlock.js"></script>
+<script src="office/script/puzzle/PuzzleCell.js"></script>
+<script src="office/script/puzzle/PuzzleClues.js"></script>
+<script src="office/script/puzzle/PuzzleClueNotification.js"></script>
+<script src="office/script/puzzle/PuzzleClueProvider.js"></script>
+<script src="office/script/puzzle/PuzzleDictionary.js"></script>
+<script src="office/script/puzzle/PuzzleGrid.js"></script>
+<script src="office/script/puzzle/PuzzleGridHandler.js"></script>
+<script src="office/script/puzzle/PuzzleGridWords.js"></script>
+<script src="office/script/puzzle/PuzzleModelAttr.js"></script>
+<script src="office/script/puzzle/PuzzleToolbar.js"></script>
+<script src="office/script/puzzle/PuzzleScanBlock.js"></script>
+<script src="office/script/puzzle/PuzzleScanCell.js"></script>
+<script src="office/script/puzzle/PuzzleSolver.js"></script>
+<script src="office/script/puzzle/PuzzleSolverBlock.js"></script>
+<script src="office/script/puzzle/PuzzleSolverCell.js"></script>
+<script src="office/script/puzzle/PuzzleWordProvider.js"></script>
+
+<%- include(_view.get('_meta/utility/createPuzzlePdf')) %>
+<%- include(_view.get('_meta/utility/exportWords')) %>
+<%- include(_view.get('_meta/utility/importWords')) %>
+<% } %>

@@ -2,31 +2,30 @@
 
 module.exports = {
 
-    title: 'Boilerplate',
+    title: 'CrosswordMaker',
 
     components: {
+        'bodyParser': {
+            urlencoded: {
+                parameterLimit: 500000
+            }
+        },
         'db': {
             settings: {
-                'database': process.env.MONGO_NAME || 'evado-boilerplate',
+                'database': process.env.MONGO_NAME || 'crossword-maker',
             }
         },
         'cookie': {
-            secret: 'boilerplate.evado.sign' // key to sign cookie
+            secret: 'crossword-maker.sign' // key to sign cookie
         },
         'session': {
-            secret: 'boilerplate.evado.sign'  // key to sign session ID cookie
+            secret: 'crossword-maker.sign'  // key to sign session ID cookie
         },
         'i18n': {
             language: 'en'
         },
         'router': {
-            // defaultModule: 'office'
-        },
-        's3Storage': {
-            Class: require('evado/component/file/S3Storage'),
-            accessKey: 'minioadmin',
-            secretKey: 'minioadmin',
-            bucket: 'test'
+            //defaultModule: 'portal'
         }
     },
     metaModels: {
@@ -43,9 +42,6 @@ module.exports = {
                 modules: {
                     'base': {
                         Class: require('evado-api-base/Module')
-                    },
-                    'navigation': {
-                        Class: require('evado-api-navigation/Module')
                     }
                 }
             }
@@ -54,13 +50,16 @@ module.exports = {
             Class: require('evado-module-studio/Module')
         },
         'office': {
-            Class: require('evado-module-office/Module')
+            Class: require('../module/office/Module')
         },
         'account': {
             Class: require('evado-module-account/Module')
         },
         'admin': {
             Class: require('evado-module-admin/Module')
+        },
+        'portal': {
+            Class: require('../module/portal/Module')
         }
     },
     assets: require('./default-assets'),
@@ -75,10 +74,11 @@ module.exports = {
     sideMenu: require('./default-sideMenu'),
     widgets: require('./default-widgets'),
     params: {
-        'enablePasswordChange': true,
+        'enablePasswordChange': false,
         'enablePasswordReset': false,
         'enableSignUp': false,
         'enableSignUpVerification': false,
-        'languageToggle': true
+        'languageToggle': true,
+        'webWordDir': 'app/word'
     }
 };

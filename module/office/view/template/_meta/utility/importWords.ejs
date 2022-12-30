@@ -1,0 +1,60 @@
+<!-- _meta/utility/importWords -->
+<%
+const nodeModel = meta.node.model;
+%>
+<script src="office/script/meta/utility/ImportWords.js"></script>
+
+<template data-id="importWordsForm">
+  <div class="form" data-language="<%- meta.node.model?.getId() %>">
+    <div class="alert-danger alert hidden"></div>
+    <div class="form-attr form-group row required">
+      <label class="col-md-3 col-form-label">
+        <span class="col-form-label-text" data-t="meta">Language</span>
+      </label>
+      <div class="col-md-9">
+        <select name="language" class="form-control">
+          <% if (nodeModel) { %>
+          <option value="<%- nodeModel.getId() %>"><%- nodeModel.get('name') %></option>
+          <% } else { %>
+          <option></option>
+          <% } %>
+        </select>
+        <div class="error-block"></div>
+      </div>
+    </div>
+    <div class="form-attr form-group row">
+      <label class="col-md-3 col-form-label">
+        <span class="col-form-label-text" data-t="meta">Theme</span>
+      </label>
+      <div class="col-md-9">
+        <select name="theme" class="form-control">
+          <option></option>
+        </select>
+        <div class="error-block"></div>
+      </div>
+    </div>
+    <div class="form-attr form-group row">
+      <label class="col-md-3"></label>
+      <div class="col-md-9">
+        <div class="form-check">
+          <input name="skipNewWords" class="form-check-input" type="checkbox">
+          <label class="form-check-label" data-t="">Skip new words</label>
+        </div>
+      </div>
+    </div>
+    <div class="form-attr form-group row required">
+      <label class="col-md-3 col-form-label">
+        <span class="col-form-label-text" data-t="meta">Words</span>
+      </label>
+      <div class="col-md-9">
+        <textarea name="words" class="form-control" rows="4"></textarea>
+        <div class="error-block"></div>
+        <div class="hint-block">
+          <div data-t="">Data format (clues are optional):</div>
+          <div data-t="">word1</div>
+          <div data-t="">word2; clue1; clue2</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</template>

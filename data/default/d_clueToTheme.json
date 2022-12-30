@@ -1,0 +1,722 @@
+[
+ {
+  "_id": {
+   "$oid": "638d9591ed65eaa8d32fd387"
+  },
+  "_class": "clueToTheme",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "clue": {
+   "$oid": "638d9591ed65eaa8d32fd386"
+  },
+  "theme": {
+   "$oid": "635b78020f075c49f071531a"
+  },
+  "_createdAt": {
+   "$date": "2022-12-05T06:54:09.943Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638d95c7ed65eaa8d32fd389"
+  },
+  "_class": "clueToTheme",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "clue": {
+   "$oid": "638d95c7ed65eaa8d32fd388"
+  },
+  "theme": {
+   "$oid": "635b78020f075c49f071531a"
+  },
+  "_createdAt": {
+   "$date": "2022-12-05T06:55:03.849Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638d9612ed65eaa8d32fd38b"
+  },
+  "_class": "clueToTheme",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "clue": {
+   "$oid": "638d9612ed65eaa8d32fd38a"
+  },
+  "theme": {
+   "$oid": "635b78020f075c49f071531a"
+  },
+  "_createdAt": {
+   "$date": "2022-12-05T06:56:18.094Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638d962bed65eaa8d32fd38d"
+  },
+  "_class": "clueToTheme",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "clue": {
+   "$oid": "638d962bed65eaa8d32fd38c"
+  },
+  "theme": {
+   "$oid": "635b78020f075c49f071531a"
+  },
+  "_createdAt": {
+   "$date": "2022-12-05T06:56:43.747Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638d963fed65eaa8d32fd38f"
+  },
+  "_class": "clueToTheme",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "clue": {
+   "$oid": "638d963fed65eaa8d32fd38e"
+  },
+  "theme": {
+   "$oid": "635b78020f075c49f071531a"
+  },
+  "_createdAt": {
+   "$date": "2022-12-05T06:57:03.166Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638d9653ed65eaa8d32fd391"
+  },
+  "_class": "clueToTheme",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "clue": {
+   "$oid": "638d9653ed65eaa8d32fd390"
+  },
+  "theme": {
+   "$oid": "635b78020f075c49f071531a"
+  },
+  "_createdAt": {
+   "$date": "2022-12-05T06:57:23.984Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638d966aed65eaa8d32fd393"
+  },
+  "_class": "clueToTheme",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "clue": {
+   "$oid": "638d966aed65eaa8d32fd392"
+  },
+  "theme": {
+   "$oid": "635b78020f075c49f071531a"
+  },
+  "_createdAt": {
+   "$date": "2022-12-05T06:57:46.291Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638d969eed65eaa8d32fd395"
+  },
+  "_class": "clueToTheme",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "clue": {
+   "$oid": "638d969eed65eaa8d32fd394"
+  },
+  "theme": {
+   "$oid": "635b78020f075c49f071531a"
+  },
+  "_createdAt": {
+   "$date": "2022-12-05T06:58:38.968Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638d96ceed65eaa8d32fd397"
+  },
+  "_class": "clueToTheme",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "clue": {
+   "$oid": "638d96ceed65eaa8d32fd396"
+  },
+  "theme": {
+   "$oid": "635b78020f075c49f071531a"
+  },
+  "_createdAt": {
+   "$date": "2022-12-05T06:59:26.624Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638d96e6ed65eaa8d32fd399"
+  },
+  "_class": "clueToTheme",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "clue": {
+   "$oid": "638d96e6ed65eaa8d32fd398"
+  },
+  "theme": {
+   "$oid": "635b78020f075c49f071531a"
+  },
+  "_createdAt": {
+   "$date": "2022-12-05T06:59:50.101Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638d973eed65eaa8d32fd39b"
+  },
+  "_class": "clueToTheme",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "clue": {
+   "$oid": "638d973eed65eaa8d32fd39a"
+  },
+  "theme": {
+   "$oid": "635b78020f075c49f071531a"
+  },
+  "_createdAt": {
+   "$date": "2022-12-05T07:01:18.963Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638d9767ed65eaa8d32fd39d"
+  },
+  "_class": "clueToTheme",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "clue": {
+   "$oid": "638d9767ed65eaa8d32fd39c"
+  },
+  "theme": {
+   "$oid": "635b78020f075c49f071531a"
+  },
+  "_createdAt": {
+   "$date": "2022-12-05T07:01:59.622Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638d978bed65eaa8d32fd39f"
+  },
+  "_class": "clueToTheme",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "clue": {
+   "$oid": "638d978bed65eaa8d32fd39e"
+  },
+  "theme": {
+   "$oid": "635b78020f075c49f071531a"
+  },
+  "_createdAt": {
+   "$date": "2022-12-05T07:02:35.880Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638d97d4ed65eaa8d32fd3a1"
+  },
+  "_class": "clueToTheme",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "clue": {
+   "$oid": "638d97d4ed65eaa8d32fd3a0"
+  },
+  "theme": {
+   "$oid": "635b78020f075c49f071531a"
+  },
+  "_createdAt": {
+   "$date": "2022-12-05T07:03:48.396Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638d981bed65eaa8d32fd3a3"
+  },
+  "_class": "clueToTheme",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "clue": {
+   "$oid": "638d981bed65eaa8d32fd3a2"
+  },
+  "theme": {
+   "$oid": "635b78020f075c49f071531a"
+  },
+  "_createdAt": {
+   "$date": "2022-12-05T07:04:59.344Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638d984bed65eaa8d32fd3a5"
+  },
+  "_class": "clueToTheme",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "clue": {
+   "$oid": "638d984bed65eaa8d32fd3a4"
+  },
+  "theme": {
+   "$oid": "635b78020f075c49f071531a"
+  },
+  "_createdAt": {
+   "$date": "2022-12-05T07:05:47.236Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638d986bed65eaa8d32fd3a7"
+  },
+  "_class": "clueToTheme",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "clue": {
+   "$oid": "638d986aed65eaa8d32fd3a6"
+  },
+  "theme": {
+   "$oid": "635b78020f075c49f071531a"
+  },
+  "_createdAt": {
+   "$date": "2022-12-05T07:06:19.004Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638d9897ed65eaa8d32fd3a9"
+  },
+  "_class": "clueToTheme",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "clue": {
+   "$oid": "638d9897ed65eaa8d32fd3a8"
+  },
+  "theme": {
+   "$oid": "635b78020f075c49f071531a"
+  },
+  "_createdAt": {
+   "$date": "2022-12-05T07:07:03.600Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638d98aeed65eaa8d32fd3ab"
+  },
+  "_class": "clueToTheme",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "clue": {
+   "$oid": "638d98aeed65eaa8d32fd3aa"
+  },
+  "theme": {
+   "$oid": "635b78020f075c49f071531a"
+  },
+  "_createdAt": {
+   "$date": "2022-12-05T07:07:26.407Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638d98c8ed65eaa8d32fd3ad"
+  },
+  "_class": "clueToTheme",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "clue": {
+   "$oid": "638d98c7ed65eaa8d32fd3ac"
+  },
+  "theme": {
+   "$oid": "635b78020f075c49f071531a"
+  },
+  "_createdAt": {
+   "$date": "2022-12-05T07:07:52.029Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638d98f6ed65eaa8d32fd3af"
+  },
+  "_class": "clueToTheme",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "clue": {
+   "$oid": "638d98f6ed65eaa8d32fd3ae"
+  },
+  "theme": {
+   "$oid": "635b78020f075c49f071531a"
+  },
+  "_createdAt": {
+   "$date": "2022-12-05T07:08:38.876Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638d992ded65eaa8d32fd3b1"
+  },
+  "_class": "clueToTheme",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "clue": {
+   "$oid": "638d992ded65eaa8d32fd3b0"
+  },
+  "theme": {
+   "$oid": "635b78020f075c49f071531a"
+  },
+  "_createdAt": {
+   "$date": "2022-12-05T07:09:33.342Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638d9944ed65eaa8d32fd3b3"
+  },
+  "_class": "clueToTheme",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "clue": {
+   "$oid": "638d9944ed65eaa8d32fd3b2"
+  },
+  "theme": {
+   "$oid": "635b78020f075c49f071531a"
+  },
+  "_createdAt": {
+   "$date": "2022-12-05T07:09:56.528Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638d9989ed65eaa8d32fd3b5"
+  },
+  "_class": "clueToTheme",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "clue": {
+   "$oid": "638d9989ed65eaa8d32fd3b4"
+  },
+  "theme": {
+   "$oid": "635b78020f075c49f071531a"
+  },
+  "_createdAt": {
+   "$date": "2022-12-05T07:11:05.211Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638d9d6bfaf35c9bcfda48e2"
+  },
+  "_class": "clueToTheme",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "clue": {
+   "$oid": "638d9d6bfaf35c9bcfda48e1"
+  },
+  "theme": {
+   "$oid": "635b78020f075c49f071531a"
+  },
+  "_createdAt": {
+   "$date": "2022-12-05T07:27:39.394Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638ea5db030a3595cc9b1034"
+  },
+  "_class": "clueToTheme",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "clue": {
+   "$oid": "638ea5db030a3595cc9b1033"
+  },
+  "theme": {
+   "$oid": "635b78020f075c49f071531a"
+  },
+  "_createdAt": {
+   "$date": "2022-12-06T02:15:55.051Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638ea648030a3595cc9b1036"
+  },
+  "_class": "clueToTheme",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "clue": {
+   "$oid": "638ea648030a3595cc9b1035"
+  },
+  "theme": {
+   "$oid": "635b78020f075c49f071531a"
+  },
+  "_createdAt": {
+   "$date": "2022-12-06T02:17:44.433Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638ea80f030a3595cc9b1038"
+  },
+  "_class": "clueToTheme",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "clue": {
+   "$oid": "638ea80f030a3595cc9b1037"
+  },
+  "theme": {
+   "$oid": "635b78020f075c49f071531a"
+  },
+  "_createdAt": {
+   "$date": "2022-12-06T02:25:19.455Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638ea83f030a3595cc9b103a"
+  },
+  "_class": "clueToTheme",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "clue": {
+   "$oid": "638ea83f030a3595cc9b1039"
+  },
+  "theme": {
+   "$oid": "635b78020f075c49f071531a"
+  },
+  "_createdAt": {
+   "$date": "2022-12-06T02:26:07.617Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638ea89e030a3595cc9b103c"
+  },
+  "_class": "clueToTheme",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "clue": {
+   "$oid": "638ea89e030a3595cc9b103b"
+  },
+  "theme": {
+   "$oid": "635b78020f075c49f071531a"
+  },
+  "_createdAt": {
+   "$date": "2022-12-06T02:27:42.707Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638ea8e4030a3595cc9b103e"
+  },
+  "_class": "clueToTheme",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "clue": {
+   "$oid": "638ea8e4030a3595cc9b103d"
+  },
+  "theme": {
+   "$oid": "635b78020f075c49f071531a"
+  },
+  "_createdAt": {
+   "$date": "2022-12-06T02:28:52.876Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638ea92e030a3595cc9b1040"
+  },
+  "_class": "clueToTheme",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "clue": {
+   "$oid": "638ea92e030a3595cc9b103f"
+  },
+  "theme": {
+   "$oid": "635b78020f075c49f071531a"
+  },
+  "_createdAt": {
+   "$date": "2022-12-06T02:30:06.165Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638ea94f030a3595cc9b1042"
+  },
+  "_class": "clueToTheme",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "clue": {
+   "$oid": "638ea94f030a3595cc9b1041"
+  },
+  "theme": {
+   "$oid": "635b78020f075c49f071531a"
+  },
+  "_createdAt": {
+   "$date": "2022-12-06T02:30:39.123Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638ea9f5030a3595cc9b1044"
+  },
+  "_class": "clueToTheme",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "clue": {
+   "$oid": "638ea9f5030a3595cc9b1043"
+  },
+  "theme": {
+   "$oid": "635b78020f075c49f071531a"
+  },
+  "_createdAt": {
+   "$date": "2022-12-06T02:33:25.589Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638eaa45030a3595cc9b1046"
+  },
+  "_class": "clueToTheme",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "clue": {
+   "$oid": "638eaa45030a3595cc9b1045"
+  },
+  "theme": {
+   "$oid": "635b78020f075c49f071531a"
+  },
+  "_createdAt": {
+   "$date": "2022-12-06T02:34:45.213Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638eaa60030a3595cc9b1048"
+  },
+  "_class": "clueToTheme",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "clue": {
+   "$oid": "638eaa60030a3595cc9b1047"
+  },
+  "theme": {
+   "$oid": "635b78020f075c49f071531a"
+  },
+  "_createdAt": {
+   "$date": "2022-12-06T02:35:12.765Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638eaaad030a3595cc9b104a"
+  },
+  "_class": "clueToTheme",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "clue": {
+   "$oid": "638eaaad030a3595cc9b1049"
+  },
+  "theme": {
+   "$oid": "635b78020f075c49f071531a"
+  },
+  "_createdAt": {
+   "$date": "2022-12-06T02:36:29.073Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638eaac7030a3595cc9b104c"
+  },
+  "_class": "clueToTheme",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "clue": {
+   "$oid": "638eaac7030a3595cc9b104b"
+  },
+  "theme": {
+   "$oid": "635b78020f075c49f071531a"
+  },
+  "_createdAt": {
+   "$date": "2022-12-06T02:36:55.172Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638eab46030a3595cc9b104e"
+  },
+  "_class": "clueToTheme",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "clue": {
+   "$oid": "638eab46030a3595cc9b104d"
+  },
+  "theme": {
+   "$oid": "635b78020f075c49f071531a"
+  },
+  "_createdAt": {
+   "$date": "2022-12-06T02:39:02.562Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638eab9a030a3595cc9b1050"
+  },
+  "_class": "clueToTheme",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "clue": {
+   "$oid": "638eab9a030a3595cc9b104f"
+  },
+  "theme": {
+   "$oid": "635b78020f075c49f071531a"
+  },
+  "_createdAt": {
+   "$date": "2022-12-06T02:40:26.846Z"
+  }
+ }
+]

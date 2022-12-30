@@ -1,0 +1,14 @@
+{
+  "label": "Create word",
+  "readOnly": false,
+  "attrs": [
+    {
+      "name": "language",
+      "orderNumber": 10
+    },
+    {
+      "name": "value",
+      "orderNumber": 20
+    }
+  ]
+}

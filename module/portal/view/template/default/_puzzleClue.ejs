@@ -1,0 +1,15 @@
+<template id="puzzleClue">
+  <template v-if="selectedBlock?.isValid()">
+    <div class="puzzle-clue">
+      <template v-if="loading">
+        <span class="text-secondary">{{t('Clue loading...')}}</span>
+      </template>
+      <template v-else-if="absent">
+        <span class="text-danger">{{t('Clue not found')}}</span>
+      </template>
+      <template v-else>
+        {{clue}}
+      </template>
+    </div>
+  </template>
+</template>

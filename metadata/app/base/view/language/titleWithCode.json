@@ -1,0 +1,20 @@
+{
+  "label": "Title with code",
+  "header": [
+    ".name",
+    " (",
+    ".code",
+    ")"
+  ],
+  "readOnly": true,
+  "attrs": [
+    {
+      "name": "code",
+      "orderNumber": 10
+    },
+    {
+      "name": "name",
+      "orderNumber": 20
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+<template id="puzzleList">
+  <div class="page">
+
+    <breadcrumbs>
+      <template #path>
+        <li class="breadcrumb-item">{{t('Main')}}</li>
+      </template>
+    </breadcrumbs>
+
+    <h1>{{t('Published puzzles')}}</h1>
+
+    <div class="form">
+      <div class="row">
+        <div class="col-sm-6 mb-3">
+          <ajax-select
+            ref="language"
+            class="language"
+            view="public"
+            :placeholder="t('Any language')"
+            @change="load"
+          ></ajax-select>
+        </div>
+        <div class="col-sm-6 mb-3">
+          <ajax-select
+            ref="theme"
+            class="theme"
+            view="public"
+            :placeholder="t('Any theme')"
+            @change="load"
+          ></ajax-select>
+        </div>
+      </div>
+    </div>
+
+    <div class="loadable-container">
+      <div v-show="!empty" class="puzzle-items">
+        <div class="table-responsive">
+          <table class="table-striped table-bordered table">
+            <thead>
+            <tr>
+              <th>{{t('Name')}}</th>
+              <th>{{t('Language')}}</th>
+              <th>{{t('Theme')}}</th>
+              <th>{{t('Width')}}</th>
+              <th>{{t('Height')}}</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr v-for="item of items" :key="item._id">
+              <td><a @click.prevent="onPuzzle(item._id)" href="#">{{item._title}}</a></td>
+              <td>{{t(item.language?._title)}}</td>
+              <td>{{t(item.theme?._title || '-')}}</td>
+              <td>{{item.width}}</td>
+              <td>{{item.height}}</td>
+            </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <pagination
+        :page="page"
+        :page-size="pageSize"
+        :total-size="totalSize"
+        @change="load">
+      </pagination>
+
+      <div v-show="!loading && empty" class="alert-warning alert mb-0">
+        {{t('No puzzles found')}}
+      </div>
+
+      <div v-show="loading" class="loader">
+        <i class="fa fa-spinner fa-spin"></i>
+      </div>
+    </div>
+  </div>
+</template>

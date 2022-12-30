@@ -1,0 +1,161 @@
+<!-- _attr/puzzle/grid -->
+<%
+const value = model.get(attr);
+const t = `meta.${attr.view.translationKey}`;
+%>
+<div class="form-attr row <%- attr.options.css %>" data-handler="Puzzle">
+
+  <input type="hidden" name="<%- formAttrName %>" class="form-value"
+     value="<%= value !== null ? JSON.stringify(value, null, 0) : '' %>">
+
+  <div class="<%- attr.options.cssLabel || defaultCssLabel %>"></div>
+  <div class="<%- attr.options.cssValue || defaultCssValue %>">
+
+    <div class="puzzle" data-word-dir="<%- _module.app.params.webWordDir %>">
+
+      <div class="puzzle-toolbar">
+        <div class="radio-btn-group btn-group">
+          <button data-action="showGrid" class="active btn-outline-secondary btn"
+              data-t="<%- t %>">Grid</button>
+          <button data-action="showClues" class="btn-outline-secondary btn"
+              data-t="<%- t %>">Clues</button>
+        </div>
+
+        <div data-group="grid" class="hide-on-auto-fill">
+          <button data-action="findEmptyBlock" class="btn-outline-secondary btn"
+              title="Find empty block" data-t="<%- t %>">
+            <i class="fas fa-search"></i>
+          </button>
+        </div>
+
+        <div data-group="grid" class="hide-on-auto-fill btn-group">
+          <button data-action="removeBlockWord" class="btn-outline-secondary btn"
+              title="Remove word" data-t="<%- t %>">
+            <i class="fas fa-remove-format"></i>
+          </button>
+          <button data-action="removeAllBlockWords" class="btn-outline-danger btn"
+              title="Remove all words" data-t="<%- t %>">
+            <i class="far fa-trash-alt"></i>
+          </button>
+        </div>
+
+        <div data-group="grid">
+          <div class="hide-on-auto-fill btn-group">
+            <button data-action="startAutoFilling" class="btn-outline-success btn"
+                title="Start auto filling" data-t="<%- t %>">
+              <i class="fas fa-lightbulb"></i>
+            </button>
+            <button data-action="clearAutoFilling" class="btn-outline-danger btn"
+                title="Clear last auto filling" data-t="<%- t %>">
+              <i class="fas fa-ban"></i>
+            </button>
+          </div>
+          <div class="auto-filling-info">
+            <i class="fa fa-spinner fa-spin"></i>
+            <span class="text-dark" data-t="<%- t %>">Auto filling...</span>
+          </div>
+          <button data-action="abortAutoFilling" class="btn-outline-danger btn"
+              title="Abort auto filling" data-t="<%- t %>">
+            <i class="fas fa-ban"></i>
+          </button>
+        </div>
+
+        <div data-group="grid" class="hide-on-auto-fill btn-group">
+          <button data-action="moveLeft" class="btn-outline-secondary btn"
+              title="Move grid left" data-t="<%- t %>">
+            <i class="fas fa-arrow-left"></i>
+          </button>
+          <button data-action="moveUp" class="btn-outline-secondary btn"
+              title="Move grid up" data-t="<%- t %>">
+            <i class="fas fa-arrow-up"></i>
+          </button>
+          <button data-action="moveDown" class="btn-outline-secondary btn"
+              title="Move grid down" data-t="<%- t %>">
+            <i class="fas fa-arrow-down"></i>
+          </button>
+          <button data-action="moveRight" class="btn-outline-secondary btn"
+              title="Move grid right" data-t="<%- t %>">
+            <i class="fas fa-arrow-right"></i>
+          </button>
+        </div>
+
+        <div data-group="grid" class="hide-on-auto-fill btn-group">
+          <button data-action="cropByContent" class="btn-outline-secondary btn"
+              title="Crop by content" data-t="<%- t %>">
+            <i class="fas fa-crop-alt"></i>
+          </button>
+        </div>
+
+        <div data-group="grid" class="hide-on-auto-fill btn-group">
+          <button data-action="deleteBlock" class="btn-outline-secondary btn"
+              title="Delete block" data-t="<%- t %>">
+            <i class="fas fa-unlink"></i>
+          </button>
+          <button data-action="deleteAllBlocks" class="btn-outline-danger btn"
+              title="Delete all blocks" data-t="<%- t %>">
+            <i class="far fa-trash-alt"></i>
+          </button>
+        </div>
+
+        <div data-group="clues" class="btn-group">
+          <button data-action="createClue" class="btn-outline-success btn"
+              title="Create clue" data-t="<%- t %>">
+            <i class="fas fa-plus"></i>
+          </button>
+          <button data-action="editClue" class="btn-outline-primary btn"
+              title="Edit clue" data-t="<%- t %>">
+            <i class="fas fa-pencil-alt"></i>
+          </button>
+          <button data-action="deleteClue" class="btn-outline-danger btn"
+              title="Delete clue" data-t="<%- t %>">
+            <i class="far fa-trash-alt"></i>
+          </button>
+        </div>
+
+        <div data-group="clues" class="radio-btn-group btn-group">
+          <button data-action="filterAnyClue" class="active btn-outline-secondary btn"
+              title="All grid words" data-t="<%- t %>">All</button>
+          <button data-action="filterWithoutClue" class="btn-outline-secondary btn"
+              title="Words without any clue" data-t="<%- t %>">Without clue</button>
+          <button data-action="filterUnselectedClue" class="btn-outline-secondary btn"
+              title="Words with unselected clue" data-t="<%- t %>">Unselected clue</button>
+          <button data-action="filterMultipleClue" class="btn-outline-secondary btn"
+              title="Words with multiple clues" data-t="<%- t %>">Multiple clues</button>
+        </div>
+
+        <div data-group="clues">
+          <button data-action="reloadClues" class="btn-outline-secondary btn" title="Reload clues" data-t="<%- t %>">
+            <i class="fa fa-redo-alt"></i>
+          </button>
+        </div>
+      </div>
+
+      <div class="puzzle-clue-notification">
+      </div>
+
+      <div class="puzzle-pane-grid puzzle-pane">
+        <div class="puzzle-grid-wrapper">
+          <div class="puzzle-grid"></div>
+          <template data-id="cell">
+            <div class="puzzle-cell"><div class="letter"></div></div>
+          </template>
+        </div>
+        <div class="puzzle-dictionary hide-on-auto-fill">
+          <div class="puzzle-dictionary-head">
+            <input type="search" class="form-control" placeholder="Starts with..." data-t="">
+          </div>
+          <div class="puzzle-dictionary-words"></div>
+        </div>
+      </div>
+
+      <div class="puzzle-pane-clues puzzle-pane">
+        <div class="puzzle-grid-words"></div>
+        <div class="puzzle-clues"></div>
+      </div>
+
+      <div class="overlay">
+        <i class="fa fa-spinner fa-spin"></i>
+      </div>
+    </div>
+  </div>
+</div>

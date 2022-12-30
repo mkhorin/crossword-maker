@@ -1,0 +1,19 @@
+{
+  "readOnly": false,
+  "attrs": [
+    {
+      "name": "word",
+      "eagerLoading": true,
+      "orderNumber": 10
+    },
+    {
+      "name": "value",
+      "orderNumber": 20
+    },
+    {
+      "name": "themes",
+      "listView": "listInClue",
+      "orderNumber": 30
+    }
+  ]
+}

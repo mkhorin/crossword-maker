@@ -1,0 +1,33 @@
+{
+  "label": "List",
+  "readOnly": true,
+  "attrs": [
+    {
+      "name": "published",
+      "orderNumber": 10
+    },
+    {
+      "name": "name",
+      "orderNumber": 20
+    },
+    {
+      "name": "type",
+      "orderNumber": 30
+    },
+    {
+      "name": "width",
+      "orderNumber": 50
+    },
+    {
+      "name": "height",
+      "orderNumber": 60
+    },
+    {
+      "name": "language",
+      "eagerLoading": true,
+      "eagerView": null,
+      "orderNumber": 70,
+      "selectListView": "titleForWords"
+    }
+  ]
+}

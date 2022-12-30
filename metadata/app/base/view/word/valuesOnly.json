@@ -1,0 +1,13 @@
+{
+  "label": "Values only",
+  "readOnly": true,
+  "options": {
+    "listLimit": 1000
+  },
+  "attrs": [
+    {
+      "name": "value",
+      "orderNumber": 10
+    }
+  ]
+}

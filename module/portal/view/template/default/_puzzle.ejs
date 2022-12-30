@@ -1,0 +1,26 @@
+<template id="puzzle">
+  <div class="puzzle">
+    <puzzle-grid ref="grid"
+      :puzzle="item._id"
+      :grid="item.grid"
+      @select="onBlock"
+    ></puzzle-grid>
+
+    <puzzle-clue ref="clue"
+      :puzzle="item._id"
+      :theme="item.theme?._id"
+      :selected-block="selectedBlock"
+    ></puzzle-clue>
+
+    <puzzle-word ref="word"
+      :selected-block="selectedBlock"
+      @ready="onReadyWord"
+    ></puzzle-word>
+
+    <puzzle-keyboard ref="keyboard"
+      :language="item.language._title"
+      :active="selectedBlock?.isValid()"
+      @letter="onKeyboard"
+    ></puzzle-keyboard>
+  </div>
+</template>

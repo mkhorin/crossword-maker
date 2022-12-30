@@ -1,0 +1,26 @@
+<!-- _meta/utility/exportWords -->
+<%
+const nodeModel = meta.node.model;
+%>
+<script src="office/script/meta/utility/ExportWords.js"></script>
+
+<template data-id="exportWordsForm">
+  <div class="form">
+    <div class="alert-danger alert hidden"></div>
+    <div class="form-attr form-group row required">
+      <label class="col-md-3 col-form-label">
+        <span class="col-form-label-text" data-t="meta">Language</span>
+      </label>
+      <div class="col-md-9">
+        <select name="language" class="form-control">
+          <% if (nodeModel) { %>
+          <option value="<%- nodeModel.getId() %>"><%- nodeModel.get('name') %></option>
+          <% } else { %>
+          <option></option>
+          <% } %>
+        </select>
+        <div class="error-block"></div>
+      </div>
+    </div>
+  </div>
+</template>

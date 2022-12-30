@@ -1,0 +1,23 @@
+<template id="puzzleWord">
+  <div class="puzzle-word" :class="{valid, invalid}">
+
+    <template v-if="!selectedBlock">
+      <div class="alert-warning alert">{{t('Select a puzzle block')}}</div>
+    </template>
+
+    <template v-else-if="selectedBlock.isValid()">
+      <template v-for="(letter, index) of letters">
+        <puzzle-word-cell ref="cell"
+          :index="index"
+          :letter="letter"
+          :fixed="isFixedLetter(index)"
+          @clear="onClearLetter"
+        ></puzzle-word-cell>
+      </template>
+    </template>
+
+    <template v-else>
+      <div class="alert-danger alert">{{t('Invalid puzzle word')}}</div>
+    </template>
+  </div>
+</template>

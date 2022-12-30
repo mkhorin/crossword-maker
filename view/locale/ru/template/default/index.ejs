@@ -1,18 +1,22 @@
 <% layout(_view.get('_layout/content')) %>
 
 <h1 class="content-header mb-4">
-  <span class="text-danger icon fa fa-sun"></span>
-  Придумайте идею и затем...
+  Создание классических и скандинавских кроссвордов
 </h1>
 
 <div class="row">
   <div class="col-lg-6">
     <div class="card mb-3">
       <div class="card-body">
-        <h5 class="text-success mb-0">Модуль Студия</h5>
+        <h5 class="text-danger">Модуль Портал</h5>
+        <p>
+          Здесь можно попытаться решить созданные кроссворды.
+          <br>
+          Модуль доступен для гостевых пользователей.
+        </p>
       </div>
       <div class="card-footer text-center">
-        <a href="studio" class="btn-success btn">Создавайте</a>
+        <a href="portal" class="btn-danger btn">Перейти</a>
       </div>
     </div>
   </div>
@@ -22,10 +26,15 @@
   <div class="col-lg-6">
     <div class="card mb-3">
       <div class="card-body">
-        <h5 class="text-primary mb-0">Модуль Офис</h5>
+        <h5 class="text-primary">Модуль Офис</h5>
+        <p>
+          Здесь создаются кроссворды.
+          <br>
+          В этом модуле сетки, слова и подсказки связываются вместе.
+        </p>
       </div>
       <div class="card-footer text-center">
-        <a href="office" class="btn-primary btn">Наполняйте</a>
+        <a href="office" class="btn-primary btn">Перейти</a>
       </div>
     </div>
   </div>
@@ -33,12 +42,35 @@
 
 <div class="row">
   <div class="col-lg-6">
-    <div class="card">
+    <div class="card mb-3">
       <div class="card-body">
-        <h5 class="text-secondary mb-0">Модуль Администрирование</h5>
+        <h5 class="text-success">Модуль Студия</h5>
+        <p>
+          Здесь редактируются метаданные приложения.
+          <br>
+          В этом модуле определяется то, из чего состоят Кроссворд, Слово, Подсказка и остальные сущности.
+        </p>
       </div>
       <div class="card-footer text-center">
-        <a href="admin" class="btn-secondary btn">Управляйте</a>
+        <a href="studio" class="btn-success btn">Перейти</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-lg-6">
+    <div class="card mb-3">
+      <div class="card-body">
+        <h5 class="text-secondary">Модуль Администрирования</h5>
+        <p>
+          Здесь контролируется приложение.
+          <br>
+          Безопасность и множество других настроек администрирования доступны в этом модуле.
+        </p>
+      </div>
+      <div class="card-footer text-center">
+        <a href="admin" class="btn-secondary btn">Перейти</a>
       </div>
     </div>
   </div>

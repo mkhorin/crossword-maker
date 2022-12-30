@@ -1,0 +1,41 @@
+{
+  "label": "Create puzzle",
+  "readOnly": false,
+  "attrs": [
+    {
+      "name": "published",
+      "orderNumber": 10
+    },
+    {
+      "name": "name",
+      "orderNumber": 20
+    },
+    {
+      "name": "language",
+      "eagerLoading": true,
+      "eagerView": "titleWithCode",
+      "orderNumber": 30,
+      "selectListView": "titleWithCode"
+    },
+    {
+      "name": "theme",
+      "orderNumber": 40
+    },
+    {
+      "name": "type",
+      "orderNumber": 50
+    },
+    {
+      "name": "width",
+      "orderNumber": 60
+    },
+    {
+      "name": "height",
+      "orderNumber": 70
+    },
+    {
+      "name": "grid",
+      "orderNumber": 80
+    }
+  ]
+}

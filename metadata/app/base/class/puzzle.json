@@ -1,0 +1,321 @@
+{
+  "abstract": false,
+  "description": "Puzzle grid with words",
+  "header": ".name",
+  "label": "Puzzle",
+  "attrs": [
+    {
+      "name": "published",
+      "label": "Published",
+      "type": "boolean",
+      "description": "Is a puzzle available to guests",
+      "commonSearchable": false,
+      "createOnRead": false,
+      "eagerLoading": false,
+      "escape": true,
+      "hidden": false,
+      "hideEmpty": false,
+      "history": false,
+      "multiple": false,
+      "orderNumber": 10,
+      "sortable": false,
+      "sortableRelation": false,
+      "readOnly": false,
+      "required": false,
+      "selectSearchable": false,
+      "signed": false,
+      "trim": true,
+      "unique": false,
+      "rules": [
+        {
+          "type": "custom",
+          "orderNumber": 10,
+          "description": "Check puzzle before publishing",
+          "config": {
+            "Class": "component/meta/validator/PublicPuzzleValidator",
+            "when": [
+              "$=",
+              ".published",
+              true
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "name",
+      "label": "Name",
+      "type": "string",
+      "commonSearchable": true,
+      "createOnRead": false,
+      "eagerLoading": false,
+      "escape": true,
+      "hidden": false,
+      "hideEmpty": false,
+      "history": false,
+      "multiple": false,
+      "orderNumber": 20,
+      "sortable": true,
+      "sortableRelation": false,
+      "readOnly": false,
+      "required": false,
+      "selectSearchable": true,
+      "signed": false,
+      "trim": true,
+      "unique": false
+    },
+    {
+      "name": "language",
+      "label": "Language",
+      "type": "ref",
+      "viewType": "relationRadioList",
+      "commonSearchable": false,
+      "createOnRead": false,
+      "defaultValue": [
+        "$id",
+        [
+          "$param",
+          "id"
+        ]
+      ],
+      "eagerLoading": false,
+      "escape": true,
+      "group": "languageColumn1",
+      "hidden": false,
+      "hideEmpty": false,
+      "history": false,
+      "multiple": false,
+      "onDelete": "null",
+      "options": {
+        "inline": true
+      },
+      "orderNumber": 30,
+      "sortable": false,
+      "sortableRelation": false,
+      "refClass": "language",
+      "readOnly": false,
+      "required": true,
+      "selectSearchable": false,
+      "signed": false,
+      "trim": true,
+      "unique": false
+    },
+    {
+      "name": "theme",
+      "label": "Theme",
+      "type": "ref",
+      "viewType": "relationSelect",
+      "commands": [
+        "add",
+        "remove",
+        "edit"
+      ],
+      "commonSearchable": false,
+      "createOnRead": false,
+      "eagerLoading": false,
+      "escape": true,
+      "group": "languageColumn2",
+      "hidden": false,
+      "hideEmpty": false,
+      "history": false,
+      "multiple": false,
+      "onDelete": "null",
+      "orderNumber": 40,
+      "sortable": false,
+      "sortableRelation": false,
+      "refClass": "theme",
+      "readOnly": false,
+      "required": false,
+      "selectSearchable": false,
+      "signed": false,
+      "trim": true,
+      "unique": false
+    },
+    {
+      "name": "type",
+      "label": "Type",
+      "type": "string",
+      "viewType": "radioList",
+      "description": "Grid type",
+      "commonSearchable": false,
+      "createOnRead": false,
+      "defaultValue": "classic",
+      "eagerLoading": false,
+      "escape": true,
+      "hidden": false,
+      "hideEmpty": false,
+      "history": false,
+      "multiple": false,
+      "options": {
+        "inline": true
+      },
+      "orderNumber": 50,
+      "sortable": false,
+      "sortableRelation": false,
+      "readOnly": false,
+      "required": true,
+      "selectSearchable": false,
+      "signed": false,
+      "trim": true,
+      "unique": false,
+      "enums": [
+        {
+          "items": [
+            {
+              "orderNumber": 10,
+              "text": "Classic",
+              "value": "classic"
+            },
+            {
+              "orderNumber": 20,
+              "text": "Scandinavian",
+              "value": "scan"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "width",
+      "label": "Width",
+      "type": "integer",
+      "description": "Grid width",
+      "commonSearchable": false,
+      "createOnRead": false,
+      "defaultValue": 10,
+      "eagerLoading": false,
+      "escape": true,
+      "group": "sizeWidth",
+      "hidden": false,
+      "hideEmpty": false,
+      "history": false,
+      "multiple": false,
+      "orderNumber": 60,
+      "sortable": false,
+      "sortableRelation": false,
+      "readOnly": false,
+      "required": true,
+      "selectSearchable": false,
+      "signed": false,
+      "trim": true,
+      "unique": false
+    },
+    {
+      "name": "height",
+      "label": "Height",
+      "type": "integer",
+      "description": "Grid height",
+      "commonSearchable": false,
+      "createOnRead": false,
+      "defaultValue": 10,
+      "eagerLoading": false,
+      "escape": true,
+      "group": "sizeHeight",
+      "hidden": false,
+      "hideEmpty": false,
+      "history": false,
+      "multiple": false,
+      "orderNumber": 70,
+      "sortable": false,
+      "sortableRelation": false,
+      "readOnly": false,
+      "required": true,
+      "selectSearchable": false,
+      "signed": false,
+      "trim": true,
+      "unique": false
+    },
+    {
+      "name": "grid",
+      "label": "Grid",
+      "type": "json",
+      "commonSearchable": false,
+      "createOnRead": false,
+      "eagerLoading": false,
+      "escape": true,
+      "hidden": false,
+      "hideEmpty": false,
+      "history": false,
+      "multiple": false,
+      "orderNumber": 80,
+      "sortable": false,
+      "sortableRelation": false,
+      "readOnly": false,
+      "required": false,
+      "selectSearchable": false,
+      "signed": false,
+      "trim": true,
+      "unique": false
+    }
+  ],
+  "groups": [
+    {
+      "name": "language",
+      "label": "Language row",
+      "hidden": false,
+      "loadable": false,
+      "options": {
+        "cssLabel": "col-xl-4 col-lg-3",
+        "cssValue": "col-xl-8 col-lg-9"
+      },
+      "orderNumber": 30,
+      "readOnly": false,
+      "required": false,
+      "type": "columns"
+    },
+    {
+      "name": "size",
+      "label": "Size row",
+      "hidden": false,
+      "loadable": false,
+      "options": {
+        "cssLabel": "col-xl-4 col-lg-3",
+        "cssValue": "col-xl-8 col-lg-9"
+      },
+      "orderNumber": 55,
+      "readOnly": false,
+      "required": false,
+      "type": "columns"
+    },
+    {
+      "name": "sizeWidth",
+      "label": "Width",
+      "hidden": false,
+      "loadable": false,
+      "orderNumber": 1010,
+      "parent": "size",
+      "readOnly": false,
+      "required": false
+    },
+    {
+      "name": "sizeHeight",
+      "label": "Height",
+      "hidden": false,
+      "loadable": false,
+      "orderNumber": 1020,
+      "parent": "size",
+      "readOnly": false,
+      "required": false
+    },
+    {
+      "name": "languageColumn1",
+      "label": "Language column 1",
+      "hidden": false,
+      "loadable": false,
+      "orderNumber": 1030,
+      "parent": "language",
+      "readOnly": false,
+      "required": false
+    },
+    {
+      "name": "languageColumn2",
+      "label": "Language column 2",
+      "hidden": false,
+      "loadable": false,
+      "orderNumber": 1040,
+      "parent": "language",
+      "readOnly": false,
+      "required": false
+    }
+  ]
+}

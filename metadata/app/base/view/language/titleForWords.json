@@ -1,0 +1,14 @@
+{
+  "label": "Title for words",
+  "header": [
+    ".name",
+    " words"
+  ],
+  "readOnly": true,
+  "attrs": [
+    {
+      "name": "name",
+      "orderNumber": 10
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "label": "Link clue to theme",
+  "readOnly": false,
+  "attrs": [
+    {
+      "name": "clue",
+      "eagerLoading": true,
+      "orderNumber": 10
+    },
+    {
+      "name": "theme",
+      "orderNumber": 20
+    }
+  ]
+}

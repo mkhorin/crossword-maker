@@ -1,0 +1,37 @@
+{
+  "label": "Public list view",
+  "filter": {
+    "published": true
+  },
+  "readOnly": true,
+  "attrs": [
+    {
+      "name": "name",
+      "orderNumber": 20
+    },
+    {
+      "name": "language",
+      "eagerLoading": true,
+      "eagerView": "public",
+      "orderNumber": 30
+    },
+    {
+      "name": "theme",
+      "eagerLoading": true,
+      "eagerView": "public",
+      "orderNumber": 40
+    },
+    {
+      "name": "type",
+      "orderNumber": 50
+    },
+    {
+      "name": "width",
+      "orderNumber": 60
+    },
+    {
+      "name": "height",
+      "orderNumber": 70
+    }
+  ]
+}

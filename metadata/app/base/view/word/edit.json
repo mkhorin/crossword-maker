@@ -1,0 +1,23 @@
+{
+  "readOnly": false,
+  "attrs": [
+    {
+      "name": "language",
+      "eagerLoading": true,
+      "orderNumber": 10,
+      "readOnly": true
+    },
+    {
+      "name": "value",
+      "orderNumber": 20
+    },
+    {
+      "name": "clues",
+      "orderNumber": 40
+    },
+    {
+      "name": "themes",
+      "orderNumber": 50
+    }
+  ]
+}

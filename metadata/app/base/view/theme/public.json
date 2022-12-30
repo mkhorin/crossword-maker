@@ -1,0 +1,10 @@
+{
+  "label": "Public view",
+  "readOnly": true,
+  "attrs": [
+    {
+      "name": "description",
+      "orderNumber": 30
+    }
+  ]
+}

@@ -1,18 +1,22 @@
 <% layout(_view.get('_layout/content')) %>
 
 <h1 class="content-header mb-4">
-  <span class="text-danger icon fa fa-sun"></span>
-  Imagine your app and then...
+  Create classic and scandinavian crossword puzzles
 </h1>
 
 <div class="row">
   <div class="col-lg-6">
     <div class="card mb-3">
       <div class="card-body">
-        <h5 class="text-success mb-0">Studio module</h5>
+        <h5 class="text-danger">Portal module</h5>
+        <p>
+          Here you can try to solve published crosswords.
+          <br>
+          The module is available for guest users.
+        </p>
       </div>
       <div class="card-footer text-center">
-        <a href="studio" class="btn-success btn">Create it</a>
+        <a href="portal" class="btn-danger btn">Go</a>
       </div>
     </div>
   </div>
@@ -22,10 +26,15 @@
   <div class="col-lg-6">
     <div class="card mb-3">
       <div class="card-body">
-        <h5 class="text-primary mb-0">Office module</h5>
+        <h5 class="text-primary">Office module</h5>
+        <p>
+          Crossword puzzles are created here.
+          <br>
+          You can link grids, words and clues together in this module.
+        </p>
       </div>
       <div class="card-footer text-center">
-        <a href="office" class="btn-primary btn">Operate it</a>
+        <a href="office" class="btn-primary btn">Go</a>
       </div>
     </div>
   </div>
@@ -33,12 +42,35 @@
 
 <div class="row">
   <div class="col-lg-6">
-    <div class="card">
+    <div class="card mb-3">
       <div class="card-body">
-        <h5 class="text-secondary mb-0">Administration module</h5>
+        <h5 class="text-success">Studio module</h5>
+        <p>
+          Application metadata is edited here.
+          <br>
+          What Crossword, Word, Clue and other entities consist of is defined in this module.
+        </p>
       </div>
       <div class="card-footer text-center">
-        <a href="admin" class="btn-secondary btn">Control it</a>
+        <a href="studio" class="btn-success btn">Go</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-lg-6">
+    <div class="card mb-3">
+      <div class="card-body">
+        <h5 class="text-secondary">Admin module</h5>
+        <p>
+          The application is controlled here.
+          <br>
+          Security and many other administration settings are available in this module.
+        </p>
+      </div>
+      <div class="card-footer text-center">
+        <a href="admin" class="btn-secondary btn">Go</a>
       </div>
     </div>
   </div>

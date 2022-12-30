@@ -1,0 +1,15 @@
+{
+  "readOnly": true,
+  "attrs": [
+    {
+      "name": "clue",
+      "eagerLoading": true,
+      "orderNumber": 10
+    },
+    {
+      "name": "theme",
+      "eagerLoading": true,
+      "orderNumber": 20
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+<template id="puzzleGrid">
+  <div class="puzzle-grid-wrapper">
+    <div class="puzzle-grid" :style="style">
+      <template v-for="cell of cells">
+        <puzzle-grid-cell ref="cell"
+          :x="cell.x"
+          :y="cell.y"
+          :selected="cell.selected"
+          :letter="cell.letter"
+          @click="onCell(cell)"
+        ></puzzle-grid-cell>
+      </template>
+    </div>
+  </div>
+</template>

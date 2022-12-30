@@ -1,0 +1,70 @@
+<%
+layout(_view.get('_layout/content'));
+
+script('app/vendor/jspdf/jspdf.umd.min.js');
+
+script('app/script/pdf/PdfExport.js');
+script('app/script/pdf/PdfExportClassic.js');
+script('app/script/pdf/PdfExportGrid.js');
+script('app/script/pdf/PdfExportGridBlock.js');
+script('app/script/pdf/PdfExportGridCell.js');
+script('app/script/pdf/PdfExportScan.js');
+
+script('app/script/PuzzleHelper.js');
+
+script('portal/vendor/vue/vue.global.prod.js');
+
+script('portal/script/Portal.js');
+script('portal/script/AjaxSelect.js');
+script('portal/script/Breadcrumbs.js');
+script('portal/script/CluesService.js');
+script('portal/script/FetchService.js');
+script('portal/script/GridStorageService.js');
+script('portal/script/Mixin.js');
+script('portal/script/Pagination.js');
+script('portal/script/Puzzle.js');
+script('portal/script/PuzzleClue.js');
+script('portal/script/PuzzleGrid.js');
+script('portal/script/PuzzleGridBlock.js');
+script('portal/script/PuzzleGridCell.js');
+script('portal/script/PuzzleKeyboard.js');
+script('portal/script/PuzzleList.js');
+script('portal/script/PuzzleView.js');
+script('portal/script/PuzzleWord.js');
+script('portal/script/PuzzleWordCell.js');
+
+script('portal/script/init.js');
+
+const user = _controller.user;
+%>
+
+<%- include('./_ajaxSelect') %>
+<%- include('./_breadcrumbs') %>
+<%- include('./_pagination') %>
+<%- include('./_puzzle') %>
+<%- include('./_puzzleClue') %>
+<%- include('./_puzzleGrid') %>
+<%- include('./_puzzleGridCell') %>
+<%- include('./_puzzleKeyboard') %>
+<%- include('./_puzzleList') %>
+<%- include('./_puzzleView') %>
+<%- include('./_puzzleWord') %>
+<%- include('./_puzzleWordCell') %>
+
+<div id="portal"
+   data-user-id="<%- user.getId() %>"
+   data-auth-url="<%- _url('/auth/sign-in?returnUrl=/portal') %>"
+   data-data-url="<%- _url('/api/base/data') %>"
+   data-file-url="<%- _url('/api/base/file') %>"
+   data-meta-url="<%- _url('/api/base/meta') %>"
+   data-csrf="<%- _controller.getCsrfToken() %>">
+
+  <keep-alive include="puzzle-list">
+    <component
+      v-bind:is="activePage"
+      v-bind="activePageProps"
+      v-on:main="onMain"
+      v-on:puzzle="onPuzzle"
+    ></component>
+  </keep-alive>
+</div>

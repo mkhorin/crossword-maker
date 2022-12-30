@@ -1,0 +1,10 @@
+{
+  "name": "crossword-maker-asset",
+  "version": "1.0.0",
+  "author": "Maxim Khorin",
+  "license": "MIT",
+  "repository": {},
+  "dependencies": {
+    "jspdf": "^2.5.1"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "label": "List in clue",
+  "readOnly": true,
+  "attrs": [
+    {
+      "name": "theme",
+      "eagerLoading": true,
+      "orderNumber": 20
+    }
+  ]
+}

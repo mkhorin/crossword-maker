@@ -1,0 +1,2184 @@
+[
+ {
+  "_id": {
+   "$oid": "638d9591ed65eaa8d32fd386"
+  },
+  "_class": "clue",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "word": {
+   "$oid": "635b44c8ba293ee534670455"
+  },
+  "value": "Метеорологический летающий датчик",
+  "_createdAt": {
+   "$date": "2022-12-05T06:54:09.897Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638d95c7ed65eaa8d32fd388"
+  },
+  "_class": "clue",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "word": {
+   "$oid": "635b442bba293ee53466ddbe"
+  },
+  "value": "Электрод прибора",
+  "_createdAt": {
+   "$date": "2022-12-05T06:55:03.802Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638d9612ed65eaa8d32fd38a"
+  },
+  "_class": "clue",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "word": {
+   "$oid": "635b44ceba293ee5346709b6"
+  },
+  "value": "Искусственное русло для воды",
+  "_createdAt": {
+   "$date": "2022-12-05T06:56:18.026Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638d962bed65eaa8d32fd38c"
+  },
+  "_class": "clue",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "word": {
+   "$oid": "635b44ddba293ee5346717fa"
+  },
+  "value": "Струнный щипковый инструмент",
+  "_createdAt": {
+   "$date": "2022-12-05T06:56:43.695Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638d963fed65eaa8d32fd38e"
+  },
+  "_class": "clue",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "word": {
+   "$oid": "635b44ddba293ee5346717fa"
+  },
+  "value": "Название валюты в ряде стран",
+  "_createdAt": {
+   "$date": "2022-12-05T06:57:03.129Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638d9653ed65eaa8d32fd390"
+  },
+  "_class": "clue",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "word": {
+   "$oid": "635b44ddba293ee5346717fa"
+  },
+  "value": "Созвездие северного полушария",
+  "_createdAt": {
+   "$date": "2022-12-05T06:57:23.946Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638d966aed65eaa8d32fd392"
+  },
+  "_class": "clue",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "word": {
+   "$oid": "635b44deba293ee53467193b"
+  },
+  "value": "Спутник Земли",
+  "_createdAt": {
+   "$date": "2022-12-05T06:57:46.234Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638d969eed65eaa8d32fd394"
+  },
+  "_class": "clue",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "word": {
+   "$oid": "635b44deba293ee53467193b"
+  },
+  "value": "Советский тактический ракетный комплекс",
+  "_createdAt": {
+   "$date": "2022-12-05T06:58:38.929Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638d96ceed65eaa8d32fd396"
+  },
+  "_class": "clue",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "word": {
+   "$oid": "63859a191efd12a5f0468c14"
+  },
+  "value": "Американское космическое агентство",
+  "_createdAt": {
+   "$date": "2022-12-05T06:59:26.589Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638d96e6ed65eaa8d32fd398"
+  },
+  "_class": "clue",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "word": {
+   "$oid": "635b44edba293ee5346724d8"
+  },
+  "value": "Пространство над поверхностью Земли",
+  "_createdAt": {
+   "$date": "2022-12-05T06:59:50.066Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638d973eed65eaa8d32fd39a"
+  },
+  "_class": "clue",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "word": {
+   "$oid": "635b4537ba293ee534673c43"
+  },
+  "value": "Одно небесное тело заслоняет другое",
+  "_createdAt": {
+   "$date": "2022-12-05T07:01:18.919Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638d9767ed65eaa8d32fd39c"
+  },
+  "_class": "clue",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "word": {
+   "$oid": "635b4545ba293ee5346747b7"
+  },
+  "value": "Место, выделяющиеся по цвету от остальной поверхности",
+  "_createdAt": {
+   "$date": "2022-12-05T07:01:59.560Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638d978bed65eaa8d32fd39e"
+  },
+  "_class": "clue",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "word": {
+   "$oid": "635b458cba293ee5346754dc"
+  },
+  "value": "Мера воздействия",
+  "_createdAt": {
+   "$date": "2022-12-05T07:02:35.847Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638d97d4ed65eaa8d32fd3a0"
+  },
+  "_class": "clue",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "word": {
+   "$oid": "635b4593ba293ee534675ac0"
+  },
+  "value": "Служебная часть речи",
+  "_createdAt": {
+   "$date": "2022-12-05T07:03:48.360Z"
+  },
+  "_editor": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "_updatedAt": {
+   "$date": "2022-12-05T07:03:59.992Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638d981bed65eaa8d32fd3a2"
+  },
+  "_class": "clue",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "word": {
+   "$oid": "635b4593ba293ee534675ac0"
+  },
+  "value": "Cемейство космических кораблей",
+  "_createdAt": {
+   "$date": "2022-12-05T07:04:59.298Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638d984bed65eaa8d32fd3a4"
+  },
+  "_class": "clue",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "word": {
+   "$oid": "635b4593ba293ee534675b23"
+  },
+  "value": "Собственный момент импульса элементарной частицы",
+  "_createdAt": {
+   "$date": "2022-12-05T07:05:47.189Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638d986aed65eaa8d32fd3a6"
+  },
+  "_class": "clue",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "word": {
+   "$oid": "635b4598ba293ee534675fa2"
+  },
+  "value": "Поверхность, все точки которой равноудалены от центра",
+  "_createdAt": {
+   "$date": "2022-12-05T07:06:18.966Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638d9897ed65eaa8d32fd3a8"
+  },
+  "_class": "clue",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "word": {
+   "$oid": "635b4598ba293ee534675fa2"
+  },
+  "value": "Учении о музыкально-математическом устройстве космоса",
+  "_createdAt": {
+   "$date": "2022-12-05T07:07:03.561Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638d98aeed65eaa8d32fd3aa"
+  },
+  "_class": "clue",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "word": {
+   "$oid": "635b459dba293ee5346763f0"
+  },
+  "value": "Геометрический абстрактный объект",
+  "_createdAt": {
+   "$date": "2022-12-05T07:07:26.366Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638d98c7ed65eaa8d32fd3ac"
+  },
+  "_class": "clue",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "word": {
+   "$oid": "635b459dba293ee5346763f0"
+  },
+  "value": "Знак препинания",
+  "_createdAt": {
+   "$date": "2022-12-05T07:07:51.990Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638d98f6ed65eaa8d32fd3ae"
+  },
+  "_class": "clue",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "word": {
+   "$oid": "635b45a0ba293ee534676741"
+  },
+  "value": "Неограниченная геометрическая фигура",
+  "_createdAt": {
+   "$date": "2022-12-05T07:08:38.839Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638d992ded65eaa8d32fd3b0"
+  },
+  "_class": "clue",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "word": {
+   "$oid": "635b45a0ba293ee534676741"
+  },
+  "value": "Сдаваемое в аренду место, меньшее, чем комната",
+  "_createdAt": {
+   "$date": "2022-12-05T07:09:33.304Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638d9944ed65eaa8d32fd3b2"
+  },
+  "_class": "clue",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "word": {
+   "$oid": "635b45a2ba293ee5346768de"
+  },
+  "value": "Планета Солнечной системы",
+  "_createdAt": {
+   "$date": "2022-12-05T07:09:56.490Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638d9989ed65eaa8d32fd3b4"
+  },
+  "_class": "clue",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "word": {
+   "$oid": "635b45a2ba293ee5346768de"
+  },
+  "value": "Радиоактивный металл серебристого цвета",
+  "_createdAt": {
+   "$date": "2022-12-05T07:11:05.176Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638d9d6bfaf35c9bcfda48e1"
+  },
+  "_class": "clue",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "word": {
+   "$oid": "635b45abba293ee534677157"
+  },
+  "value": "Инструмент для измерения времени",
+  "_createdAt": {
+   "$date": "2022-12-05T07:27:39.353Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638d9decfaf35c9bcfda48e3"
+  },
+  "_class": "clue",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "word": {
+   "$oid": "635b442eba293ee53466e048"
+  },
+  "value": "Объявление о концерте",
+  "_createdAt": {
+   "$date": "2022-12-05T07:29:48.667Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638d9e20faf35c9bcfda48e4"
+  },
+  "_class": "clue",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "word": {
+   "$oid": "635b4446ba293ee53466f5c2"
+  },
+  "value": "Волнообразная складка на поверхности",
+  "_createdAt": {
+   "$date": "2022-12-05T07:30:40.977Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638d9e35faf35c9bcfda48e5"
+  },
+  "_class": "clue",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "word": {
+   "$oid": "635b444cba293ee53466fabf"
+  },
+  "value": "Спортивный снаряд для метания",
+  "_createdAt": {
+   "$date": "2022-12-05T07:31:01.146Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638d9e77faf35c9bcfda48e6"
+  },
+  "_class": "clue",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "word": {
+   "$oid": "635b444dba293ee53466fbb4"
+  },
+  "value": "Обязательство, возникающее в результате сделки",
+  "_createdAt": {
+   "$date": "2022-12-05T07:32:07.332Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638d9eb1faf35c9bcfda48e7"
+  },
+  "_class": "clue",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "word": {
+   "$oid": "635b4450ba293ee53466fe39"
+  },
+  "value": "Младший офицерский чин в казачьих войсках",
+  "_createdAt": {
+   "$date": "2022-12-05T07:33:05.499Z"
+  },
+  "_editor": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "_updatedAt": {
+   "$date": "2022-12-05T07:33:26.205Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638d9ed2faf35c9bcfda48e8"
+  },
+  "_class": "clue",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "word": {
+   "$oid": "635b44c9ba293ee534670510"
+  },
+  "value": "Японская валюта",
+  "_createdAt": {
+   "$date": "2022-12-05T07:33:38.323Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638d9f0afaf35c9bcfda48e9"
+  },
+  "_class": "clue",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "word": {
+   "$oid": "635b44cdba293ee5346708f8"
+  },
+  "value": "Чиновник, присваивающий госсобственность",
+  "_createdAt": {
+   "$date": "2022-12-05T07:34:34.456Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638d9f3dfaf35c9bcfda48ea"
+  },
+  "_class": "clue",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "word": {
+   "$oid": "635b44cfba293ee534670ad2"
+  },
+  "value": "Крупная всеядная рыба с толстым телом",
+  "_createdAt": {
+   "$date": "2022-12-05T07:35:25.456Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638d9f86faf35c9bcfda48eb"
+  },
+  "_class": "clue",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "word": {
+   "$oid": "635b44d1ba293ee534670c76"
+  },
+  "value": "Традиционная одежда горцев Шотландии",
+  "_createdAt": {
+   "$date": "2022-12-05T07:36:38.977Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638da01dfaf35c9bcfda48ec"
+  },
+  "_class": "clue",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "word": {
+   "$oid": "635b44d7ba293ee53467126e"
+  },
+  "value": "Первый генерал-губернатор Приамурья",
+  "_createdAt": {
+   "$date": "2022-12-05T07:39:09.433Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638da039faf35c9bcfda48ed"
+  },
+  "_class": "clue",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "word": {
+   "$oid": "635b4521ba293ee5346728d9"
+  },
+  "value": "Кондитерское изделие из мёда и жареных орехов",
+  "_createdAt": {
+   "$date": "2022-12-05T07:39:37.874Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638da06efaf35c9bcfda48ee"
+  },
+  "_class": "clue",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "word": {
+   "$oid": "635b452aba293ee5346730dc"
+  },
+  "value": "Природный пигмент из железа с примесью глины",
+  "_createdAt": {
+   "$date": "2022-12-05T07:40:30.799Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638da08ffaf35c9bcfda48ef"
+  },
+  "_class": "clue",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "word": {
+   "$oid": "635b452bba293ee53467315c"
+  },
+  "value": "Международный договор",
+  "_createdAt": {
+   "$date": "2022-12-05T07:41:03.200Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638da0d4faf35c9bcfda48f0"
+  },
+  "_class": "clue",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "word": {
+   "$oid": "635b452dba293ee53467337d"
+  },
+  "value": "Плева, в которой лежит икра в рыбе",
+  "_createdAt": {
+   "$date": "2022-12-05T07:42:12.323Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638da0f9faf35c9bcfda48f1"
+  },
+  "_class": "clue",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "word": {
+   "$oid": "635b4532ba293ee5346737e1"
+  },
+  "value": "Чертёж помещения",
+  "_createdAt": {
+   "$date": "2022-12-05T07:42:49.368Z"
+  },
+  "_editor": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "_updatedAt": {
+   "$date": "2022-12-05T07:43:05.432Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638da148faf35c9bcfda48f2"
+  },
+  "_class": "clue",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "word": {
+   "$oid": "635b4532ba293ee5346737e1"
+  },
+  "value": "Упрощённая топографическая карта местности",
+  "_createdAt": {
+   "$date": "2022-12-05T07:44:08.217Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638da161faf35c9bcfda48f3"
+  },
+  "_class": "clue",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "word": {
+   "$oid": "635b4532ba293ee5346737e1"
+  },
+  "value": "Ряд предварительно обдуманных действий",
+  "_createdAt": {
+   "$date": "2022-12-05T07:44:33.538Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638da19dfaf35c9bcfda48f4"
+  },
+  "_class": "clue",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "word": {
+   "$oid": "635b4538ba293ee534673ce3"
+  },
+  "value": "Спортивная игра верхом на лошадях",
+  "_createdAt": {
+   "$date": "2022-12-05T07:45:33.122Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638da1bffaf35c9bcfda48f5"
+  },
+  "_class": "clue",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "word": {
+   "$oid": "635b4538ba293ee534673ce3"
+  },
+  "value": "Рубашка с короткими рукавами",
+  "_createdAt": {
+   "$date": "2022-12-05T07:46:07.880Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638da1dcfaf35c9bcfda48f6"
+  },
+  "_class": "clue",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "word": {
+   "$oid": "635b4539ba293ee534673df7"
+  },
+  "value": "Низкорослая лошадь",
+  "_createdAt": {
+   "$date": "2022-12-05T07:46:36.518Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638da208faf35c9bcfda48f7"
+  },
+  "_class": "clue",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "word": {
+   "$oid": "635b4587ba293ee534674fea"
+  },
+  "value": "Литературное произведение",
+  "_createdAt": {
+   "$date": "2022-12-05T07:47:20.942Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638da218faf35c9bcfda48f8"
+  },
+  "_class": "clue",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "word": {
+   "$oid": "635b4587ba293ee534674fea"
+  },
+  "value": "Богиня скандинавской мифологии",
+  "_createdAt": {
+   "$date": "2022-12-05T07:47:36.641Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638da26afaf35c9bcfda48f9"
+  },
+  "_class": "clue",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "word": {
+   "$oid": "635b4596ba293ee534675d76"
+  },
+  "value": "Рабочий по укладке чего-нибудь в стопы",
+  "_createdAt": {
+   "$date": "2022-12-05T07:48:58.446Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638da28efaf35c9bcfda48fa"
+  },
+  "_class": "clue",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "word": {
+   "$oid": "635b459bba293ee534676264"
+  },
+  "value": "Проверка программного обеспечения",
+  "_createdAt": {
+   "$date": "2022-12-05T07:49:34.068Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638da2a5faf35c9bcfda48fb"
+  },
+  "_class": "clue",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "word": {
+   "$oid": "635b45a5ba293ee534676b4c"
+  },
+  "value": "Четырёхместный городской экипаж на конной тяге",
+  "_createdAt": {
+   "$date": "2022-12-05T07:49:57.079Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638da2b7faf35c9bcfda48fc"
+  },
+  "_class": "clue",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "word": {
+   "$oid": "635b45a7ba293ee534676cfd"
+  },
+  "value": "Квант электромагнитного излучения",
+  "_createdAt": {
+   "$date": "2022-12-05T07:50:15.606Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638da2ebfaf35c9bcfda48fd"
+  },
+  "_class": "clue",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "word": {
+   "$oid": "635b442bba293ee53466dd8c"
+  },
+  "value": "Синдром уменьшения содержания гемоглобина",
+  "_createdAt": {
+   "$date": "2022-12-05T07:51:07.920Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638da312faf35c9bcfda48fe"
+  },
+  "_class": "clue",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "word": {
+   "$oid": "635b442bba293ee53466dd9d"
+  },
+  "value": "Растворитель, метиловый эфир фенола",
+  "_createdAt": {
+   "$date": "2022-12-05T07:51:46.329Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638da353faf35c9bcfda48ff"
+  },
+  "_class": "clue",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "word": {
+   "$oid": "635b4432ba293ee53466e34d"
+  },
+  "value": "Уличная еда из теста и мясного наполнителя",
+  "_createdAt": {
+   "$date": "2022-12-05T07:52:51.636Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638da360faf35c9bcfda4900"
+  },
+  "_class": "clue",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "word": {
+   "$oid": "635b4432ba293ee53466e384"
+  },
+  "value": "Мягкий головной убор",
+  "_createdAt": {
+   "$date": "2022-12-05T07:53:04.928Z"
+  },
+  "_editor": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "_updatedAt": {
+   "$date": "2022-12-05T07:53:25.546Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638da398faf35c9bcfda4901"
+  },
+  "_class": "clue",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "word": {
+   "$oid": "635b4436ba293ee53466e718"
+  },
+  "value": "Разновидность пиломатериала",
+  "_createdAt": {
+   "$date": "2022-12-05T07:54:00.757Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638da3cffaf35c9bcfda4902"
+  },
+  "_class": "clue",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "word": {
+   "$oid": "635b4450ba293ee53466fe46"
+  },
+  "value": "Яйцекладущее млекопитающее",
+  "_createdAt": {
+   "$date": "2022-12-05T07:54:55.171Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638da3e0faf35c9bcfda4903"
+  },
+  "_class": "clue",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "word": {
+   "$oid": "635b4450ba293ee53466fe46"
+  },
+  "value": "Полуженщина-полузмея, персонаж греческой мифологии",
+  "_createdAt": {
+   "$date": "2022-12-05T07:55:12.063Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638da434faf35c9bcfda4904"
+  },
+  "_class": "clue",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "word": {
+   "$oid": "635b44c8ba293ee5346704b5"
+  },
+  "value": "Плакучее древо",
+  "_createdAt": {
+   "$date": "2022-12-05T07:56:36.208Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638da44efaf35c9bcfda4905"
+  },
+  "_class": "clue",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "word": {
+   "$oid": "635b44c8ba293ee5346704bc"
+  },
+  "value": "Тонкий заострённый стержень",
+  "_createdAt": {
+   "$date": "2022-12-05T07:57:02.311Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638da45bfaf35c9bcfda4906"
+  },
+  "_class": "clue",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "word": {
+   "$oid": "635b44c8ba293ee5346704bc"
+  },
+  "value": "Часть звукоснимателя электропроигрывателя",
+  "_createdAt": {
+   "$date": "2022-12-05T07:57:15.213Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638da46cfaf35c9bcfda4907"
+  },
+  "_class": "clue",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "word": {
+   "$oid": "635b44c8ba293ee5346704bc"
+  },
+  "value": "Переносной зенитно-ракетный комплекс",
+  "_createdAt": {
+   "$date": "2022-12-05T07:57:32.662Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638da49bfaf35c9bcfda4908"
+  },
+  "_class": "clue",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "word": {
+   "$oid": "635b44d1ba293ee534670c52"
+  },
+  "value": "Нелетающая птица из Новой Зеландии",
+  "_createdAt": {
+   "$date": "2022-12-05T07:58:19.091Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638da4ddfaf35c9bcfda4909"
+  },
+  "_class": "clue",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "word": {
+   "$oid": "635b44d6ba293ee53467118b"
+  },
+  "value": "Деревянный ящик",
+  "_createdAt": {
+   "$date": "2022-12-05T07:59:25.656Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638da50cfaf35c9bcfda490a"
+  },
+  "_class": "clue",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "word": {
+   "$oid": "635b44e1ba293ee534671b8e"
+  },
+  "value": "Пищевой продукт из сливок",
+  "_createdAt": {
+   "$date": "2022-12-05T08:00:12.339Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638da567faf35c9bcfda490b"
+  },
+  "_class": "clue",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "word": {
+   "$oid": "635b44e5ba293ee534671f25"
+  },
+  "value": "Питательная жидкость для вскармливание потомства",
+  "_createdAt": {
+   "$date": "2022-12-05T08:01:43.961Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638da58bfaf35c9bcfda490c"
+  },
+  "_class": "clue",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "word": {
+   "$oid": "635b4526ba293ee534672c97"
+  },
+  "value": "Вечнозелёное субтропическое дерево, источник масла",
+  "_createdAt": {
+   "$date": "2022-12-05T08:02:19.208Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638da5c4faf35c9bcfda490d"
+  },
+  "_class": "clue",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "word": {
+   "$oid": "635b4526ba293ee534672ce8"
+  },
+  "value": "Веб-браузер",
+  "_createdAt": {
+   "$date": "2022-12-05T08:03:16.784Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638da5d5faf35c9bcfda490e"
+  },
+  "_class": "clue",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "word": {
+   "$oid": "635b4526ba293ee534672ce8"
+  },
+  "value": "Музыкально-театральный жанр",
+  "_createdAt": {
+   "$date": "2022-12-05T08:03:33.280Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638da5f1faf35c9bcfda490f"
+  },
+  "_class": "clue",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "word": {
+   "$oid": "635b4526ba293ee534672d44"
+  },
+  "value": "Продажа товаров значительными партиями",
+  "_createdAt": {
+   "$date": "2022-12-05T08:04:01.389Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638da618faf35c9bcfda4910"
+  },
+  "_class": "clue",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "word": {
+   "$oid": "635b454aba293ee534674bce"
+  },
+  "value": "Стремление проигравшей стороны отыграться",
+  "_createdAt": {
+   "$date": "2022-12-05T08:04:40.494Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638da644faf35c9bcfda4911"
+  },
+  "_class": "clue",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "word": {
+   "$oid": "635b45afba293ee53467750a"
+  },
+  "value": "Порода собак с острыми ушами",
+  "_createdAt": {
+   "$date": "2022-12-05T08:05:24.863Z"
+  },
+  "_editor": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "_updatedAt": {
+   "$date": "2022-12-05T08:05:29.215Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638da688faf35c9bcfda4912"
+  },
+  "_class": "clue",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "word": {
+   "$oid": "635b45b0ba293ee534677515"
+  },
+  "value": "Медицинский инструмент для инъекций",
+  "_createdAt": {
+   "$date": "2022-12-05T08:06:32.780Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638da7915703d8752cb5b582"
+  },
+  "_class": "clue",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "word": {
+   "$oid": "63870422afb37a97aaee96e4"
+  },
+  "value": "Anti-lock braking system",
+  "_createdAt": {
+   "$date": "2022-12-05T08:10:57.496Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638da7f05703d8752cb5b583"
+  },
+  "_class": "clue",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "word": {
+   "$oid": "6387042fafb37a97aaee9fda"
+  },
+  "value": "Total depletion of oxygen levels",
+  "_createdAt": {
+   "$date": "2022-12-05T08:12:32.692Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638da8325703d8752cb5b584"
+  },
+  "_class": "clue",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "word": {
+   "$oid": "63870433afb37a97aaeea2cc"
+  },
+  "value": "Third-most abundant gas in atmosphere",
+  "_createdAt": {
+   "$date": "2022-12-05T08:13:38.658Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638da85b5703d8752cb5b585"
+  },
+  "_class": "clue",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "word": {
+   "$oid": "6387044dafb37a97aaeeb5d5"
+  },
+  "value": "Small songbird",
+  "_createdAt": {
+   "$date": "2022-12-05T08:14:19.900Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638da8875703d8752cb5b586"
+  },
+  "_class": "clue",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "word": {
+   "$oid": "638704baafb37a97aaeedb1c"
+  },
+  "value": "One of the most commonly used Germanic names",
+  "_createdAt": {
+   "$date": "2022-12-05T08:15:03.484Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638da8ab5703d8752cb5b587"
+  },
+  "_class": "clue",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "word": {
+   "$oid": "63870531afb37a97aaeef921"
+  },
+  "value": "Values that one actively pursues as goals",
+  "_createdAt": {
+   "$date": "2022-12-05T08:15:39.202Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638da8ec5703d8752cb5b588"
+  },
+  "_class": "clue",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "word": {
+   "$oid": "6387053aafb37a97aaeeff52"
+  },
+  "value": "Free instant messaging and presence service",
+  "_createdAt": {
+   "$date": "2022-12-05T08:16:44.444Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638da9285703d8752cb5b589"
+  },
+  "_class": "clue",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "word": {
+   "$oid": "6387059fafb37a97aaef17b0"
+  },
+  "value": "Honorific typically used for a girl",
+  "_createdAt": {
+   "$date": "2022-12-05T08:17:44.096Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638da95f5703d8752cb5b58a"
+  },
+  "_class": "clue",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "word": {
+   "$oid": "638705a6afb37a97aaef1cf4"
+  },
+  "value": "A genus of snakes commonly referred to as cobras",
+  "_createdAt": {
+   "$date": "2022-12-05T08:18:39.990Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638da9905703d8752cb5b58b"
+  },
+  "_class": "clue",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "word": {
+   "$oid": "638705a7afb37a97aaef1d7c"
+  },
+  "value": "US space agency",
+  "_createdAt": {
+   "$date": "2022-12-05T08:19:28.704Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638da9b45703d8752cb5b58c"
+  },
+  "_class": "clue",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "word": {
+   "$oid": "638705a8afb37a97aaef1e47"
+  },
+  "value": "Desert region of southern Israel",
+  "_createdAt": {
+   "$date": "2022-12-05T08:20:04.534Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638daa135703d8752cb5b58d"
+  },
+  "_class": "clue",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "word": {
+   "$oid": "6387063dafb37a97aaef3dd1"
+  },
+  "value": "Character or behavior of a rogue",
+  "_createdAt": {
+   "$date": "2022-12-05T08:21:39.475Z"
+  },
+  "_editor": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "_updatedAt": {
+   "$date": "2022-12-05T08:22:24.294Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638daa6f5703d8752cb5b58e"
+  },
+  "_class": "clue",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "word": {
+   "$oid": "63870648afb37a97aaef45f1"
+  },
+  "value": "Prose story, composed in Iceland",
+  "_createdAt": {
+   "$date": "2022-12-05T08:23:11.343Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638daa9a5703d8752cb5b58f"
+  },
+  "_class": "clue",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "word": {
+   "$oid": "63870690afb37a97aaef5fd0"
+  },
+  "value": "Type of vehicle for hire with a driver",
+  "_createdAt": {
+   "$date": "2022-12-05T08:23:54.661Z"
+  },
+  "_editor": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "_updatedAt": {
+   "$date": "2022-12-05T08:23:59.143Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638daadc5703d8752cb5b590"
+  },
+  "_class": "clue",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "word": {
+   "$oid": "63870695afb37a97aaef639c"
+  },
+  "value": "Branch of the sciatic nerve",
+  "_createdAt": {
+   "$date": "2022-12-05T08:25:00.292Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638dab4a5703d8752cb5b591"
+  },
+  "_class": "clue",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "word": {
+   "$oid": "638706a2afb37a97aaef6d1d"
+  },
+  "value": "A device for removing dirt from floors",
+  "_createdAt": {
+   "$date": "2022-12-05T08:26:50.295Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638dac135703d8752cb5b592"
+  },
+  "_class": "clue",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "word": {
+   "$oid": "638706a4afb37a97aaef6e61"
+  },
+  "value": "English scientist who invented diagrams for logic, probability, statistics",
+  "_createdAt": {
+   "$date": "2022-12-05T08:30:11.628Z"
+  },
+  "_editor": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "_updatedAt": {
+   "$date": "2022-12-05T08:30:32.693Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638dac425703d8752cb5b593"
+  },
+  "_class": "clue",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "word": {
+   "$oid": "638706a6afb37a97aaef7003"
+  },
+  "value": "Multinational financial and payment cards company",
+  "_createdAt": {
+   "$date": "2022-12-05T08:30:58.071Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638dac535703d8752cb5b594"
+  },
+  "_class": "clue",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "word": {
+   "$oid": "638706a6afb37a97aaef7003"
+  },
+  "value": "Document that allows entry to a country",
+  "_createdAt": {
+   "$date": "2022-12-05T08:31:15.908Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638dac895703d8752cb5b595"
+  },
+  "_class": "clue",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "word": {
+   "$oid": "638706a8afb37a97aaef711b"
+  },
+  "value": "Heavy four-wheeled vehicle pulled by draught animals",
+  "_createdAt": {
+   "$date": "2022-12-05T08:32:09.196Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638dacb05703d8752cb5b596"
+  },
+  "_class": "clue",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "word": {
+   "$oid": "638706b0afb37a97aaef7608"
+  },
+  "value": "What century is it now",
+  "_createdAt": {
+   "$date": "2022-12-05T08:32:48.438Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638dad0d5703d8752cb5b597"
+  },
+  "_class": "clue",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "word": {
+   "$oid": "6387042bafb37a97aaee9cec"
+  },
+  "value": "Deep-submergence vehicle",
+  "_createdAt": {
+   "$date": "2022-12-05T08:34:21.448Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638dad1a5703d8752cb5b598"
+  },
+  "_class": "clue",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "word": {
+   "$oid": "6387042bafb37a97aaee9cec"
+  },
+  "value": "Crater on Mars",
+  "_createdAt": {
+   "$date": "2022-12-05T08:34:34.725Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638dad2b5703d8752cb5b599"
+  },
+  "_class": "clue",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "word": {
+   "$oid": "6387042bafb37a97aaee9cec"
+  },
+  "value": "Swedish platform for digitised cultural heritage",
+  "_createdAt": {
+   "$date": "2022-12-05T08:34:51.498Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638dad695703d8752cb5b59a"
+  },
+  "_class": "clue",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "word": {
+   "$oid": "6387042cafb37a97aaee9e0c"
+  },
+  "value": "A condition in which no mucus in produced",
+  "_createdAt": {
+   "$date": "2022-12-05T08:35:53.249Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638dadcd5703d8752cb5b59b"
+  },
+  "_class": "clue",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "word": {
+   "$oid": "63870429afb37a97aaee9bac"
+  },
+  "value": "The first letter of the Semitic abjads",
+  "_createdAt": {
+   "$date": "2022-12-05T08:37:33.358Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638dae265703d8752cb5b59c"
+  },
+  "_class": "clue",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "word": {
+   "$oid": "63870450afb37a97aaeeb7d1"
+  },
+  "value": "Statistical term equivalent to a single rushing play",
+  "_createdAt": {
+   "$date": "2022-12-05T08:39:02.468Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638e9856030a3595cc9b1021"
+  },
+  "_class": "clue",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "word": {
+   "$oid": "63870496afb37a97aaeec0c6"
+  },
+  "value": "Strong alcoholic drink",
+  "_createdAt": {
+   "$date": "2022-12-06T01:18:14.794Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638e987b030a3595cc9b1022"
+  },
+  "_class": "clue",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "word": {
+   "$oid": "6387049dafb37a97aaeec612"
+  },
+  "value": "A group of herbaceous perennial plants",
+  "_createdAt": {
+   "$date": "2022-12-06T01:18:51.447Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638e9922030a3595cc9b1023"
+  },
+  "_class": "clue",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "word": {
+   "$oid": "638704a8afb37a97aaeece03"
+  },
+  "value": "A hollow in surface of something which has been caused by hitting it",
+  "_createdAt": {
+   "$date": "2022-12-06T01:21:38.697Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638e9951030a3595cc9b1024"
+  },
+  "_class": "clue",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "word": {
+   "$oid": "638704b5afb37a97aaeed7d6"
+  },
+  "value": "Tree native to the Philippines",
+  "_createdAt": {
+   "$date": "2022-12-06T01:22:25.446Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638e9997030a3595cc9b1025"
+  },
+  "_class": "clue",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "word": {
+   "$oid": "6387052eafb37a97aaeef6ea"
+  },
+  "value": "Tendency of experiences to provoke laughter and provide amusement",
+  "_createdAt": {
+   "$date": "2022-12-06T01:23:35.763Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638e9bab030a3595cc9b1026"
+  },
+  "_class": "clue",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "word": {
+   "$oid": "63870540afb37a97aaef03b5"
+  },
+  "value": "A colloquial term for non-normative sexual behavior",
+  "_createdAt": {
+   "$date": "2022-12-06T01:32:27.855Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638e9c34030a3595cc9b1027"
+  },
+  "_class": "clue",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "word": {
+   "$oid": "63870541afb37a97aaef041e"
+  },
+  "value": "Joint region in the middle part of the leg",
+  "_createdAt": {
+   "$date": "2022-12-06T01:34:44.547Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638e9c63030a3595cc9b1028"
+  },
+  "_class": "clue",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "word": {
+   "$oid": "63870548afb37a97aaef075e"
+  },
+  "value": "Quality or condition of being lax",
+  "_createdAt": {
+   "$date": "2022-12-06T01:35:31.877Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638e9cb3030a3595cc9b1029"
+  },
+  "_class": "clue",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "word": {
+   "$oid": "638705a5afb37a97aaef1c05"
+  },
+  "value": "Ethnic and linguistic group of Tanzania",
+  "_createdAt": {
+   "$date": "2022-12-06T01:36:51.219Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638e9cd5030a3595cc9b102a"
+  },
+  "_class": "clue",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "word": {
+   "$oid": "638705a8afb37a97aaef1e3f"
+  },
+  "value": "City in Indonesia",
+  "_createdAt": {
+   "$date": "2022-12-06T01:37:25.021Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638e9d0b030a3595cc9b102b"
+  },
+  "_class": "clue",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "word": {
+   "$oid": "638705aaafb37a97aaef1f6a"
+  },
+  "value": "American rapper, better known as Brother Ali",
+  "_createdAt": {
+   "$date": "2022-12-06T01:38:19.097Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638e9d1e030a3595cc9b102c"
+  },
+  "_class": "clue",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "word": {
+   "$oid": "638705aaafb37a97aaef1f6a"
+  },
+  "value": "American actor and racing driver",
+  "_createdAt": {
+   "$date": "2022-12-06T01:38:38.012Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638e9d50030a3595cc9b102d"
+  },
+  "_class": "clue",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "word": {
+   "$oid": "6387066aafb37a97aaef5872"
+  },
+  "value": "A structure of an animal to inject venom",
+  "_createdAt": {
+   "$date": "2022-12-06T01:39:28.535Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638e9d6b030a3595cc9b102e"
+  },
+  "_class": "clue",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "word": {
+   "$oid": "63870690afb37a97aaef5fec"
+  },
+  "value": "Peninsula in Siberia",
+  "_createdAt": {
+   "$date": "2022-12-06T01:39:55.595Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638e9dc1030a3595cc9b102f"
+  },
+  "_class": "clue",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "word": {
+   "$oid": "63870691afb37a97aaef60b6"
+  },
+  "value": "A physical quantity that expresses perceptions of hotness and coldness",
+  "_createdAt": {
+   "$date": "2022-12-06T01:41:21.907Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638e9dee030a3595cc9b1030"
+  },
+  "_class": "clue",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "word": {
+   "$oid": "6387069aafb37a97aaef6786"
+  },
+  "value": "Cosmic ray telescope",
+  "_createdAt": {
+   "$date": "2022-12-06T01:42:06.275Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638e9e03030a3595cc9b1031"
+  },
+  "_class": "clue",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "word": {
+   "$oid": "6387069aafb37a97aaef6786"
+  },
+  "value": "Innovative sailboat",
+  "_createdAt": {
+   "$date": "2022-12-06T01:42:27.946Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638e9e4a030a3595cc9b1032"
+  },
+  "_class": "clue",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "word": {
+   "$oid": "638706aaafb37a97aaef724c"
+  },
+  "value": "Cosmetic hair removal procedure",
+  "_createdAt": {
+   "$date": "2022-12-06T01:43:38.764Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638ea5db030a3595cc9b1033"
+  },
+  "_class": "clue",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "word": {
+   "$oid": "63870436afb37a97aaeea54e"
+  },
+  "value": "The smallest possible amount of matter",
+  "_createdAt": {
+   "$date": "2022-12-06T02:15:55.012Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638ea648030a3595cc9b1035"
+  },
+  "_class": "clue",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "word": {
+   "$oid": "638704b9afb37a97aaeeda64"
+  },
+  "value": "The basis of Ptolemaic astronomy",
+  "_createdAt": {
+   "$date": "2022-12-06T02:17:44.391Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638ea80f030a3595cc9b1037"
+  },
+  "_class": "clue",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "word": {
+   "$oid": "63870522afb37a97aaeeece6"
+  },
+  "value": "A rectangular array of squares of equal size",
+  "_createdAt": {
+   "$date": "2022-12-06T02:25:19.410Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638ea83f030a3595cc9b1039"
+  },
+  "_class": "clue",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "word": {
+   "$oid": "63870532afb37a97aaeef9b4"
+  },
+  "value": "An optical or other representation of a real object",
+  "_createdAt": {
+   "$date": "2022-12-06T02:26:07.574Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638ea89e030a3595cc9b103b"
+  },
+  "_class": "clue",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "word": {
+   "$oid": "63870538afb37a97aaeefe6b"
+  },
+  "value": "A chemical element  forming much of Earth's core",
+  "_createdAt": {
+   "$date": "2022-12-06T02:27:42.670Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638ea8e4030a3595cc9b103d"
+  },
+  "_class": "clue",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "word": {
+   "$oid": "6388123b40e4de1cf922d744"
+  },
+  "value": "Unit of measurement of distance in outer space",
+  "_createdAt": {
+   "$date": "2022-12-06T02:28:52.838Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638ea92e030a3595cc9b103f"
+  },
+  "_class": "clue",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "word": {
+   "$oid": "638705a2afb37a97aaef199e"
+  },
+  "value": "Earth's natural satellite",
+  "_createdAt": {
+   "$date": "2022-12-06T02:30:06.122Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638ea94f030a3595cc9b1041"
+  },
+  "_class": "clue",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "word": {
+   "$oid": "638705acafb37a97aaef2121"
+  },
+  "value": "Time when the Sun appears to contact the local celestial meridian",
+  "_createdAt": {
+   "$date": "2022-12-06T02:30:39.085Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638ea9f5030a3595cc9b1043"
+  },
+  "_class": "clue",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "word": {
+   "$oid": "638705b3afb37a97aaef2582"
+  },
+  "value": "Point of intersection of a coordinate system",
+  "_createdAt": {
+   "$date": "2022-12-06T02:33:25.555Z"
+  },
+  "_editor": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "_updatedAt": {
+   "$date": "2022-12-06T02:33:35.208Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638eaa45030a3595cc9b1045"
+  },
+  "_class": "clue",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "word": {
+   "$oid": "638705b6afb37a97aaef2750"
+  },
+  "value": "Crater on Mercury",
+  "_createdAt": {
+   "$date": "2022-12-06T02:34:45.162Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638eaa60030a3595cc9b1047"
+  },
+  "_class": "clue",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "word": {
+   "$oid": "63870644afb37a97aaef42e2"
+  },
+  "value": "Blue supergiant star in the constellation of Orion",
+  "_createdAt": {
+   "$date": "2022-12-06T02:35:12.717Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638eaaad030a3595cc9b1049"
+  },
+  "_class": "clue",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "word": {
+   "$oid": "63870645afb37a97aaef439f"
+  },
+  "value": "A vehicle propelled by jet",
+  "_createdAt": {
+   "$date": "2022-12-06T02:36:29.032Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638eaac7030a3595cc9b104b"
+  },
+  "_class": "clue",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "word": {
+   "$oid": "6388123c40e4de1cf922d772"
+  },
+  "value": "A trans-Neptunian dwarf planet",
+  "_createdAt": {
+   "$date": "2022-12-06T02:36:55.137Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638eab46030a3595cc9b104d"
+  },
+  "_class": "clue",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "word": {
+   "$oid": "63870695afb37a97aaef6402"
+  },
+  "value": "A dimension opposite to the metric signature of space dimensions",
+  "_createdAt": {
+   "$date": "2022-12-06T02:39:02.513Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "638eab9a030a3595cc9b104f"
+  },
+  "_class": "clue",
+  "_creator": {
+   "$oid": "6351fbb853db77e1790d13b6"
+  },
+  "word": {
+   "$oid": "638706aaafb37a97aaef7280"
+  },
+  "value": "Lunar impact crater on the far side of the Moon",
+  "_createdAt": {
+   "$date": "2022-12-06T02:40:26.804Z"
+  }
+ }
+]

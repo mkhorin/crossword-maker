@@ -1,0 +1,111 @@
+<!-- _meta/utility/createPuzzlePdf -->
+<%
+const nodeModel = meta.node.model;
+%>
+<script src="app/vendor/jspdf/jspdf.umd.min.js"></script>
+
+<script src="app/script/pdf/PdfExport.js"></script>
+<script src="app/script/pdf/PdfExportClassic.js"></script>
+<script src="app/script/pdf/PdfExportGrid.js"></script>
+<script src="app/script/pdf/PdfExportGridBlock.js"></script>
+<script src="app/script/pdf/PdfExportGridCell.js"></script>
+<script src="app/script/pdf/PdfExportScan.js"></script>
+
+<script src="app/script/PuzzleHelper.js"></script>
+
+<script src="office/script/meta/utility/CreatePuzzlePdf.js"></script>
+
+<template data-id="createPuzzlePdfForm">
+  <div class="form">
+    <div class="alert-danger alert hidden"></div>
+    <div class="form-attr form-group row required">
+      <label class="col-md-5 col-form-label">
+        <span class="col-form-label-text" data-t="">Page format</span>
+      </label>
+      <div class="col-md-7">
+        <input name="pageFormat" type="text" class="form-control">
+        <div class="error-block"></div>
+      </div>
+    </div>
+    <div class="form-attr form-group row required">
+      <label class="col-md-5 col-form-label">
+        <span class="col-form-label-text" data-t="">Page orientation</span>
+      </label>
+      <div class="col-md-7">
+        <div class="form-check-list-inline form-check-list">
+          <div class="form-check-inline form-check">
+            <input name="pageOrientation" class="form-check-input" value="portrait" type="radio">
+            <label class="form-check-label" data-t="">Portrait</label>
+          </div>
+          <div class="form-check-inline form-check">
+            <input name="pageOrientation" class="form-check-input" value="landscape" type="radio">
+            <label class="form-check-label" data-t="">Landscape</label>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="form-attr form-group row required">
+      <label class="col-md-5 col-form-label">
+        <span class="col-form-label-text" data-t="">Page margin</span>
+      </label>
+      <div class="col-md-7">
+        <input name="pageMargin" type="number" class="form-control" step="any">
+        <div class="error-block"></div>
+      </div>
+    </div>
+    <div class="form-attr form-group row required">
+      <label class="col-md-5 col-form-label">
+        <span class="col-form-label-text" data-t="">Max cell size</span>
+      </label>
+      <div class="col-md-7">
+        <input name="maxCellSize" type="number" class="form-control" step="any">
+        <div class="error-block"></div>
+      </div>
+    </div>
+    <div class="form-attr form-group row required">
+      <label class="col-md-5 col-form-label">
+        <span class="col-form-label-text" data-t="">Cell font factor</span>
+      </label>
+      <div class="col-md-7">
+        <input name="cellFontFactor" type="number" class="form-control" step="any">
+        <div class="error-block"></div>
+      </div>
+    </div>
+    <div class="form-attr form-group row required">
+      <label class="col-md-5 col-form-label">
+        <span class="col-form-label-text" data-t="">Text size</span>
+      </label>
+      <div class="col-md-7">
+        <input name="textSize" type="number" class="form-control" step="any">
+        <div class="error-block"></div>
+      </div>
+    </div>
+    <div class="form-attr form-group row">
+      <label class="col-md-5"></label>
+      <div class="col-md-7">
+        <div class="form-check">
+          <input name="clueWithLineBreak" class="form-check-input" type="checkbox">
+          <label class="form-check-label" data-t="">Clue with line break</label>
+        </div>
+      </div>
+    </div>
+    <div class="form-attr form-group row">
+      <label class="col-md-5"></label>
+      <div class="col-md-7">
+        <div class="form-check">
+          <input name="cluesOnNewPage" class="form-check-input" type="checkbox">
+          <label class="form-check-label" data-t="">Clues on a new page</label>
+        </div>
+      </div>
+    </div>
+    <div class="form-attr form-group row">
+      <label class="col-md-5"></label>
+      <div class="col-md-7">
+        <div class="form-check">
+          <input name="showAnswers" class="form-check-input" type="checkbox">
+          <label class="form-check-label" data-t="">Show answers</label>
+        </div>
+      </div>
+    </div>
+  </div>
+</template>

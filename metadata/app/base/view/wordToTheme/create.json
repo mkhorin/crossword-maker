@@ -1,0 +1,18 @@
+{
+  "label": "Link word to theme",
+  "readOnly": false,
+  "attrs": [
+    {
+      "name": "word",
+      "eagerDepth": 2,
+      "eagerLoading": true,
+      "orderNumber": 10
+    },
+    {
+      "name": "theme",
+      "eagerDepth": 2,
+      "eagerLoading": true,
+      "orderNumber": 20
+    }
+  ]
+}

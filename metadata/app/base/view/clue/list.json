@@ -1,0 +1,24 @@
+{
+  "label": "Clue list",
+  "readOnly": true,
+  "options": {
+    "listLimit": 1000
+  },
+  "attrs": [
+    {
+      "name": "value",
+      "orderNumber": 10
+    },
+    {
+      "name": "word",
+      "eagerLoading": true,
+      "orderNumber": 20
+    },
+    {
+      "name": "themes",
+      "eagerLoading": true,
+      "hidden": true,
+      "orderNumber": 30
+    }
+  ]
+}

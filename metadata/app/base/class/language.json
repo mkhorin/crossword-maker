@@ -1,0 +1,97 @@
+{
+  "abstract": false,
+  "description": "Language of puzzle words",
+  "header": ".name",
+  "label": "Language",
+  "order": {
+    "name": 1
+  },
+  "attrs": [
+    {
+      "name": "code",
+      "label": "Code",
+      "type": "string",
+      "commonSearchable": true,
+      "createOnRead": false,
+      "eagerLoading": false,
+      "escape": true,
+      "hidden": false,
+      "hideEmpty": false,
+      "history": false,
+      "multiple": false,
+      "orderNumber": 10,
+      "sortable": true,
+      "sortableRelation": false,
+      "readOnly": false,
+      "required": true,
+      "selectSearchable": false,
+      "signed": false,
+      "trim": true,
+      "unique": true,
+      "rules": [
+        {
+          "type": "regex",
+          "orderNumber": 10,
+          "description": "Check language code pattern",
+          "pattern": "^[a-z]{2}$",
+          "mismatch": false
+        }
+      ]
+    },
+    {
+      "name": "name",
+      "label": "Name",
+      "type": "string",
+      "commonSearchable": true,
+      "createOnRead": false,
+      "eagerLoading": false,
+      "escape": true,
+      "hidden": false,
+      "hideEmpty": false,
+      "history": false,
+      "multiple": false,
+      "orderNumber": 20,
+      "sortable": true,
+      "sortableRelation": false,
+      "readOnly": false,
+      "required": true,
+      "selectSearchable": true,
+      "signed": false,
+      "trim": true,
+      "unique": true,
+      "rules": [
+        {
+          "type": "regex",
+          "orderNumber": 10,
+          "description": "Check language name",
+          "pattern": "^[a-zA-Z]+$",
+          "mismatch": false
+        }
+      ]
+    },
+    {
+      "name": "wordPattern",
+      "label": "Word pattern",
+      "type": "string",
+      "description": "Regular expressions for checking words",
+      "commonSearchable": false,
+      "createOnRead": false,
+      "eagerLoading": false,
+      "escape": true,
+      "hidden": false,
+      "hideEmpty": false,
+      "history": false,
+      "multiple": false,
+      "orderNumber": 30,
+      "sortable": false,
+      "sortableRelation": false,
+      "readOnly": false,
+      "required": false,
+      "selectSearchable": false,
+      "signed": false,
+      "trim": true,
+      "unique": false,
+      "hint": "Regular expressions for checking words"
+    }
+  ]
+}

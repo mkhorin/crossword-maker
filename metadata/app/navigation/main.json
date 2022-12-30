@@ -1,0 +1,75 @@
+{
+  "label": "Main",
+  "description": "Sidebar menu",
+  "nodes": [
+    {
+      "parent": "words",
+      "name": "languageWords",
+      "label": "Language words",
+      "description": "<div lang=\"en\">\nAfter making changes, don't forget export words to pass them to frontend.\n</div>\n<div lang=\"ru\">\nПосле внесения изменений не забудьте экспортировать слова, чтобы передать их во внешний интерфейс.\n</div>",
+      "orderNumber": 10,
+      "class": "word",
+      "view": "valuesOnly",
+      "options": {
+        "provider": {
+          "class": "language",
+          "view": "titleForWords"
+        },
+        "filter": [
+          "id",
+          "language",
+          "$param.id"
+        ],
+        "showDescription": true
+      }
+    },
+    {
+      "name": "puzzles",
+      "label": "Puzzles",
+      "description": "All puzzles",
+      "orderNumber": 10,
+      "type": "container"
+    },
+    {
+      "parent": "puzzles",
+      "name": "languagePuzzles",
+      "label": "Language puzzles",
+      "description": "Dynamic nodes from languages",
+      "orderNumber": 10,
+      "class": "puzzle",
+      "options": {
+        "provider": {
+          "class": "language",
+          "view": "titleForPuzzles"
+        },
+        "filter": [
+          "id",
+          "language",
+          "$param.id"
+        ]
+      },
+      "type": "container"
+    },
+    {
+      "name": "words",
+      "label": "Words",
+      "orderNumber": 20,
+      "type": "container"
+    },
+    {
+      "name": "themes",
+      "label": "Themes",
+      "orderNumber": 30,
+      "class": "theme",
+      "options": {
+        "showDescription": true
+      }
+    },
+    {
+      "name": "languages",
+      "label": "Languages",
+      "orderNumber": 40,
+      "class": "language"
+    }
+  ]
+}

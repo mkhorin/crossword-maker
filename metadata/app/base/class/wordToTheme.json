@@ -1,0 +1,78 @@
+{
+  "abstract": false,
+  "description": "Link words with themes",
+  "label": "Word to theme",
+  "attrs": [
+    {
+      "name": "word",
+      "label": "Word",
+      "type": "ref",
+      "viewType": "relationSelect",
+      "description": "Link to word",
+      "commands": [
+        "add",
+        "edit"
+      ],
+      "commonSearchable": false,
+      "createOnRead": false,
+      "eagerLoading": false,
+      "escape": true,
+      "hidden": false,
+      "hideEmpty": false,
+      "history": false,
+      "indexing": 1,
+      "multiple": false,
+      "onDelete": "cascade",
+      "orderNumber": 10,
+      "sortable": false,
+      "sortableRelation": false,
+      "refClass": "word",
+      "readOnly": false,
+      "required": true,
+      "selectSearchable": false,
+      "signed": false,
+      "trim": true,
+      "unique": false,
+      "rules": [
+        {
+          "type": "unique",
+          "orderNumber": 10,
+          "description": "Word with theme must be unique",
+          "filter": "theme",
+          "ignoreCase": false
+        }
+      ]
+    },
+    {
+      "name": "theme",
+      "label": "Theme",
+      "type": "ref",
+      "viewType": "relationSelect",
+      "description": "Link to theme",
+      "commands": [
+        "add",
+        "edit"
+      ],
+      "commonSearchable": false,
+      "createOnRead": false,
+      "eagerLoading": false,
+      "escape": true,
+      "hidden": false,
+      "hideEmpty": false,
+      "history": false,
+      "indexing": 1,
+      "multiple": false,
+      "onDelete": "cascade",
+      "orderNumber": 20,
+      "sortable": false,
+      "sortableRelation": false,
+      "refClass": "theme",
+      "readOnly": false,
+      "required": true,
+      "selectSearchable": false,
+      "signed": false,
+      "trim": true,
+      "unique": false
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "label": "Create clue",
+  "readOnly": false,
+  "attrs": [
+    {
+      "name": "word",
+      "eagerLoading": true,
+      "orderNumber": 10
+    },
+    {
+      "name": "value",
+      "orderNumber": 20
+    }
+  ]
+}

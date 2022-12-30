@@ -1,0 +1,152 @@
+{
+  "abstract": false,
+  "header": ".value",
+  "label": "Word",
+  "order": {
+    "value": 1
+  },
+  "description": "Describes a word",
+  "attrs": [
+    {
+      "name": "value",
+      "label": "Value",
+      "type": "string",
+      "commonSearchable": true,
+      "createOnRead": false,
+      "eagerLoading": false,
+      "escape": true,
+      "hidden": false,
+      "hideEmpty": false,
+      "history": false,
+      "indexing": 1,
+      "multiple": false,
+      "orderNumber": 10,
+      "sortable": true,
+      "sortableRelation": false,
+      "readOnly": false,
+      "required": true,
+      "selectSearchable": true,
+      "signed": false,
+      "trim": true,
+      "unique": false,
+      "rules": [
+        {
+          "type": "string",
+          "orderNumber": 10,
+          "description": "Check word length",
+          "max": 16,
+          "min": 2
+        },
+        {
+          "type": "custom",
+          "orderNumber": 20,
+          "description": "Check word by language pattern",
+          "config": {
+            "Class": "component/meta/validator/WordPatternValidator"
+          }
+        },
+        {
+          "type": "unique",
+          "orderNumber": 30,
+          "description": "Check word uniqueness within a language",
+          "filter": "language",
+          "ignoreCase": false
+        }
+      ]
+    },
+    {
+      "name": "language",
+      "label": "Language",
+      "type": "ref",
+      "viewType": "relationRadioList",
+      "commands": [
+        "add"
+      ],
+      "commonSearchable": false,
+      "createOnRead": false,
+      "eagerLoading": false,
+      "escape": true,
+      "hidden": false,
+      "hideEmpty": false,
+      "history": false,
+      "multiple": false,
+      "onDelete": "cascade",
+      "orderNumber": 20,
+      "sortable": false,
+      "sortableRelation": false,
+      "refClass": "language",
+      "readOnly": false,
+      "required": true,
+      "selectSearchable": false,
+      "signed": false,
+      "trim": true,
+      "unique": false,
+      "defaultValue": [
+        "$id",
+        [
+          "$param",
+          "id"
+        ]
+      ]
+    },
+    {
+      "name": "clues",
+      "label": "Clues",
+      "type": "backref",
+      "commands": [
+        "create",
+        "edit",
+        "delete"
+      ],
+      "commonSearchable": false,
+      "createOnRead": false,
+      "eagerLoading": false,
+      "escape": true,
+      "hidden": false,
+      "hideEmpty": false,
+      "history": false,
+      "multiple": true,
+      "orderNumber": 30,
+      "sortable": false,
+      "sortableRelation": false,
+      "refAttr": "word",
+      "refClass": "clue",
+      "readOnly": false,
+      "required": false,
+      "selectSearchable": false,
+      "signed": false,
+      "trim": true,
+      "unique": false
+    },
+    {
+      "name": "themes",
+      "label": "Themes",
+      "type": "backref",
+      "commands": [
+        "create",
+        "edit",
+        "delete"
+      ],
+      "commonSearchable": false,
+      "createOnRead": false,
+      "eagerLoading": false,
+      "escape": true,
+      "hidden": false,
+      "hideEmpty": false,
+      "history": false,
+      "listView": "listInWord",
+      "multiple": true,
+      "orderNumber": 40,
+      "sortable": false,
+      "sortableRelation": false,
+      "refAttr": "word",
+      "refClass": "wordToTheme",
+      "readOnly": false,
+      "required": false,
+      "selectSearchable": false,
+      "signed": false,
+      "trim": true,
+      "unique": false
+    }
+  ]
+}

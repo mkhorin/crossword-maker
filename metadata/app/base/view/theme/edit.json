@@ -1,0 +1,22 @@
+{
+  "readOnly": false,
+  "attrs": [
+    {
+      "name": "name",
+      "orderNumber": 20
+    },
+    {
+      "name": "description",
+      "orderNumber": 30
+    },
+    {
+      "name": "words",
+      "listView": "listInTheme",
+      "orderNumber": 40
+    },
+    {
+      "name": "clues",
+      "orderNumber": 50
+    }
+  ]
+}

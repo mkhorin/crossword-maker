@@ -1,0 +1,59 @@
+<template id="puzzleView">
+  <div class="page">
+
+    <breadcrumbs @main="$emit('main')">
+      <template #sub>
+        <li class="breadcrumb-item">
+          <span>{{t('Puzzle')}}</span>
+          <a :href="studioUrl" class="ms-2" target="_blank">{{item?._id}}</a>
+        </li>
+      </template>
+    </breadcrumbs>
+
+    <div class="loadable-container">
+
+      <div v-if="loading" class="loader">
+        <i class="fa fa-spinner fa-spin"></i>
+      </div>
+
+      <div v-if="error" class="alert-danger alert">
+        {{t('Failed to load the puzzle')}}
+      </div>
+
+      <template v-if="loaded">
+        <h1>
+          <button @click="onResetPuzzle" class="float-end btn-outline-danger btn">
+            {{t('Reset')}}
+          </button>
+          <button @click="onCreatePdf" class="float-end btn-outline-primary btn me-3">
+            {{t('Create PDF')}}
+          </button>
+          {{item?._title}}
+        </h1>
+        <form>
+          <div class="row">
+            <div class="col-md-4">
+              <div class="form-group row">
+                <label class="col-sm-3 col-4 col-form-label">{{t('Language')}}</label>
+                <div class="col-sm-9 col-8">
+                  <div class="form-control-plaintext"><b>{{t(item.language?._title)}}</b></div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-8">
+              <div class="form-group row">
+                <label class="col-sm-3 col-4 col-form-label">{{t('Theme')}}</label>
+                <div class="col-sm-9 col-8">
+                  <div class="form-control-plaintext"><b>{{t(item.theme?._title || '-')}}</b></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </form>
+
+        <puzzle ref="puzzle" :item="item"></puzzle>
+
+      </template>
+    </div>
+  </div>
+</template>

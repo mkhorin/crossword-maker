@@ -1,0 +1,14 @@
+{
+  "label": "Create theme",
+  "readOnly": false,
+  "attrs": [
+    {
+      "name": "name",
+      "orderNumber": 20
+    },
+    {
+      "name": "description",
+      "orderNumber": 30
+    }
+  ]
+}

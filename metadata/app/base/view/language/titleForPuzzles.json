@@ -1,0 +1,15 @@
+{
+  "label": "Title for puzzles",
+  "header": [
+    "In ",
+    ".name",
+    " language"
+  ],
+  "readOnly": true,
+  "attrs": [
+    {
+      "name": "name",
+      "orderNumber": 10
+    }
+  ]
+}

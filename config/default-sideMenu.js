@@ -12,9 +12,12 @@ module.exports = {
         url: 'account',
         label: 'Account'
     }, {
-        type: 'divider'
-    }, {
         url: 'admin',
         label: 'Administration'
+    }, {
+        type: 'divider'
+    }, {
+        url: 'portal',
+        label: 'Portal'
     }]
 };

@@ -1,0 +1,8 @@
+<template id="ajaxSelect">
+  <select v-model="value" @change="onChange" class="form-select">
+    <option value="">{{placeholder}}</option>
+    <template v-for="item of items" :key="item._id">
+      <option :value="item._id">{{t(item._title)}}</option>
+    </template>
+  </select>
+</template>
