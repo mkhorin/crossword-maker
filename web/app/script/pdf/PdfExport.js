@@ -134,7 +134,8 @@ class PdfExport {
 
     drawEmptyCells () {
         this.pdf.setFillColor(this.params.enclosedColor);
-        for (const cell of this.getCells()) {
+        const cells = this.getCells();
+        for (const cell of cells) {
             if (cell.isEmpty() && cell.enclosed) {
                 this.drawCell(cell, 'F');
             }

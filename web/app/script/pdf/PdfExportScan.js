@@ -24,15 +24,17 @@ class PdfExportScan extends PdfExport {
     }
 
     drawBlockCells () {
-        for (const cell of this.getCells()) {
+        const cells = this.getCells();
+        for (const cell of cells) {
             if (cell.hasBlock()) {
                 this.drawCell(cell);
             }
         }
     }
 
-    drawLabelCells (cells) {
-        for (const cell of this.getCells()) {
+    drawLabelCells () {
+        const cells = this.getCells();
+        for (const cell of cells) {
             if (cell.label) {
                 this.drawLabelCell(cell);
             }

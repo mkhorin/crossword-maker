@@ -94,14 +94,17 @@ class PuzzleClues {
     }
 
     deselectWordClues (word) {
-        for (const clue of this.getWordClues(word)) {
+        const clues = this.getWordClues(word);
+        for (const clue of clues) {
             clue.selected = false;
         }
     }
 
     addNewWord (word) {
-        if (!this.getWordClues(word) && !this.newWords.includes(word)) {
-            this.newWords.push(word);
+        if (!this.getWordClues(word)) {
+            if (!this.newWords.includes(word)) {
+                this.newWords.push(word);
+            }
         }
     }
 

@@ -10,10 +10,11 @@ class PdfExportClassic extends PdfExport {
         this.drawBlockCells();
     }
 
-    drawBlockCells (cells) {
+    drawBlockCells () {
         const fontSize = this.cellSize * this.params.cellFontFactor;
         this.pdf.setFontSize(fontSize);
-        for (const cell of this.getCells()) {
+        const cells = this.getCells();
+        for (const cell of cells) {
             if (cell.hasBlock()) {
                 this.drawBlockCell(cell);
             }

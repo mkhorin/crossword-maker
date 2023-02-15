@@ -22,7 +22,8 @@ class FormHandler {
 
     getValues () {
         const data = {};
-        for (const {name} of this.getValueElements()) {
+        const elements = this.getValueElements();
+        for (const {name} of elements) {
             data[name] = this.getValue(name);
         }
         return data;
@@ -140,7 +141,8 @@ class FormHandler {
     }
 
     validateRequiredAttrs () {
-        for (const {name} of this.getValueElements()) {
+        const elements = this.getValueElements();
+        for (const {name} of elements) {
             if (this.getAttr(name).is('.required')) {
                 this.validateRequiredAttr(name);
             }
