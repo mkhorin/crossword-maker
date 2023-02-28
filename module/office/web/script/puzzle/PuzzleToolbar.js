@@ -24,35 +24,107 @@ class PuzzleToolbar {
         const $action = $(event.currentTarget);
         this.toggleRadioGroup($action);
         this.alert.hide();
-
         switch ($action.data('action')) {
-            case 'createClue': await this.onCreateClue(); break;
-            case 'cropByContent': await this.onCropByContent(); break;
-            case 'deleteAllBlocks': await this.onDeleteAllBlocks(); break;
-            case 'deleteClue': await this.onDeleteClue(); break;
-            case 'deleteBlock': await this.onDeleteBlock(); break;
-            case 'editClue': await this.onEditClue(); break;
-            case 'findEmptyBlock': await this.onFindEmptyBlock(); break;
-
-            case 'filterAnyClue': await this.onFilterAnyClue(); break;
-            case 'filterWithoutClue': await this.onFilterWithoutClue(); break;
-            case 'filterUnselectedClue': await this.onFilterUnselectedClue(); break;
-            case 'filterMultipleClue': await this.onFilterMultipleClue(); break;
-
-            case 'moveDown': await this.onMoveDown(); break;
-            case 'moveLeft': await this.onMoveLeft(); break;
-            case 'moveRight': await this.onMoveRight(); break;
-            case 'moveUp': await this.onMoveUp(); break;
-
-            case 'startAutoFilling': await this.onStartAutoFilling(); break;
-            case 'abortAutoFilling': await this.onAbortAutoFilling(); break;
-            case 'clearAutoFilling': await this.onClearAutoFilling(); break;
-
-            case 'reloadClues': await this.onReloadClues(); break;
-            case 'removeAllBlockWords': await this.onRemoveAllBlockWords(); break;
-            case 'removeBlockWord': await this.onRemoveBlockWord(); break;
-            case 'showGrid': await this.onShowGrid(); break;
-            case 'showClues': await this.onShowClues(); break;
+            case 'createClue': {
+                await this.onCreateClue();
+                break;
+            }
+            case 'cropByContent': {
+                await this.onCropByContent();
+                break;
+            }
+            case 'deleteAllBlocks': {
+                await this.onDeleteAllBlocks();
+                break;
+            }
+            case 'deleteClue': {
+                await this.onDeleteClue();
+                break;
+            }
+            case 'deleteBlock': {
+                await this.onDeleteBlock();
+                break;
+            }
+            case 'generateGrid': {
+                await this.onGenerateGrid();
+                break;
+            }
+            case 'abortGeneration': {
+                await this.onAbortGeneration();
+                break;
+            }
+            case 'editClue': {
+                await this.onEditClue();
+                break;
+            }
+            case 'findEmptyBlock': {
+                await this.onFindEmptyBlock();
+                break;
+            }
+            case 'filterAnyClue': {
+                await this.onFilterAnyClue();
+                break;
+            }
+            case 'filterWithoutClue': {
+                await this.onFilterWithoutClue();
+                break;
+            }
+            case 'filterUnselectedClue': {
+                await this.onFilterUnselectedClue();
+                break;
+            }
+            case 'filterMultipleClue': {
+                await this.onFilterMultipleClue();
+                break;
+            }
+            case 'moveDown': {
+                await this.onMoveDown();
+                break;
+            }
+            case 'moveLeft': {
+                await this.onMoveLeft();
+                break;
+            }
+            case 'moveRight': {
+                await this.onMoveRight();
+                break;
+            }
+            case 'moveUp': {
+                await this.onMoveUp();
+                break;
+            }
+            case 'startAutoFilling': {
+                await this.onStartAutoFilling();
+                break;
+            }
+            case 'abortAutoFilling': {
+                await this.onAbortAutoFilling();
+                break;
+            }
+            case 'clearAutoFilling': {
+                await this.onClearAutoFilling();
+                break;
+            }
+            case 'reloadClues': {
+                await this.onReloadClues();
+                break;
+            }
+            case 'removeAllBlockWords': {
+                await this.onRemoveAllBlockWords();
+                break;
+            }
+            case 'removeBlockWord': {
+                await this.onRemoveBlockWord();
+                break;
+            }
+            case 'showGrid': {
+                await this.onShowGrid();
+                break;
+            }
+            case 'showClues': {
+                await this.onShowClues();
+                break;
+            }
         }
         $action.blur();
     }
@@ -103,6 +175,14 @@ class PuzzleToolbar {
             this.grid.deleteAllBlocks();
             this.triggerChange();
         }
+    }
+
+    onGenerateGrid () {
+        this.puzzle.generator.show();
+    }
+
+    onAbortGeneration () {
+        this.puzzle.generator.abort();
     }
 
     onFindEmptyBlock () {

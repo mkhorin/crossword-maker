@@ -127,10 +127,9 @@ class FormHandler {
         this.getValueElement(name).select2({ajax});
     }
 
-    processAjaxSelectResults (data) {
-        return {
-            results: data.items.map(({_id: id, _title: text}) => ({id, text}))
-        };
+    processAjaxSelectResults ({items}) {
+        const results = items.map(({_id: id, _title: text}) => ({id, text}));
+        return {results};
     }
 
     validate () {

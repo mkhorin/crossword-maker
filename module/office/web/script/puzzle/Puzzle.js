@@ -29,6 +29,7 @@ class Puzzle {
         this.gridWords = this.createGridWords();
         this.clueNotification = this.createClueNotification();
         this.solver = this.createSolver();
+        this.generator = this.createGenerator();
     }
 
     init () {
@@ -84,6 +85,10 @@ class Puzzle {
         return new PuzzleSolver(this);
     }
 
+    createGenerator () {
+        return new PuzzleGenerator(this);
+    }
+
     setLanguage (id, code) {
         this.abortSolver();
         this.languageId = id;
@@ -100,8 +105,13 @@ class Puzzle {
 
     setType (type) {
         switch (type) {
-            case 'scan': this.setScanType(); break;
-            default: this.setClassicType();
+            case 'scan': {
+                this.setScanType();
+                break;
+            }
+            default: {
+                this.setClassicType();
+            }
         }
         this.setMode(Puzzle.GRID_MODE);
     }
@@ -139,21 +149,28 @@ class Puzzle {
 
     clear () {
         this.abortSolver();
+        this.abortGenerator();
         this.grid.clear();
     }
 
     onClose () {
         this.abortSolver();
+        this.abortGenerator();
     }
 
     onResize () {
         this.abortSolver();
+        this.abortGenerator();
         this.grid.onResize(...arguments);
         this.dictionary.resize();
     }
 
     abortSolver () {
         this.solver.abort();
+    }
+
+    abortGenerator () {
+        this.generator.abort();
     }
 
     exportData () {

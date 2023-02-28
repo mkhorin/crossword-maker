@@ -21,14 +21,14 @@ const t = `meta.${attr.view.translationKey}`;
               data-t="<%- t %>">Clues</button>
         </div>
 
-        <div data-group="grid" class="hide-on-auto-fill">
+        <div data-group="grid" class="hide-on-auto-fill hide-on-generating">
           <button data-action="findEmptyBlock" class="btn-outline-secondary btn"
               title="Find empty block" data-t="<%- t %>">
             <i class="fas fa-search"></i>
           </button>
         </div>
 
-        <div data-group="grid" class="hide-on-auto-fill btn-group">
+        <div data-group="grid" class="hide-on-auto-fill hide-on-generating btn-group">
           <button data-action="removeBlockWord" class="btn-outline-secondary btn"
               title="Remove word" data-t="<%- t %>">
             <i class="fas fa-remove-format"></i>
@@ -39,7 +39,7 @@ const t = `meta.${attr.view.translationKey}`;
           </button>
         </div>
 
-        <div data-group="grid">
+        <div data-group="grid" class="hide-on-generating">
           <div class="hide-on-auto-fill btn-group">
             <button data-action="startAutoFilling" class="btn-outline-success btn"
                 title="Start auto filling" data-t="<%- t %>">
@@ -47,7 +47,7 @@ const t = `meta.${attr.view.translationKey}`;
             </button>
             <button data-action="clearAutoFilling" class="btn-outline-danger btn"
                 title="Clear last auto filling" data-t="<%- t %>">
-              <i class="fas fa-ban"></i>
+              <i class="far fa-trash-alt"></i>
             </button>
           </div>
           <div class="auto-filling-info">
@@ -60,7 +60,11 @@ const t = `meta.${attr.view.translationKey}`;
           </button>
         </div>
 
-        <div data-group="grid" class="hide-on-auto-fill btn-group">
+        <div data-group="grid" class="hide-on-auto-fill hide-on-generating btn-group">
+          <button data-action="cropByContent" class="btn-outline-secondary btn"
+              title="Crop by content" data-t="<%- t %>">
+            <i class="fas fa-crop-alt"></i>
+          </button>
           <button data-action="moveLeft" class="btn-outline-secondary btn"
               title="Move grid left" data-t="<%- t %>">
             <i class="fas fa-arrow-left"></i>
@@ -79,14 +83,23 @@ const t = `meta.${attr.view.translationKey}`;
           </button>
         </div>
 
-        <div data-group="grid" class="hide-on-auto-fill btn-group">
-          <button data-action="cropByContent" class="btn-outline-secondary btn"
-              title="Crop by content" data-t="<%- t %>">
-            <i class="fas fa-crop-alt"></i>
+        <div data-group="grid" class="generator-tools hide-on-auto-fill">
+          <button data-action="generateGrid" class="hide-on-generating btn-outline-success btn"
+              title="Generate grid" data-t="<%- t %>">
+            <i class="fas fa-border-all"></i>
+          </button>
+          <div class="generating-info">
+            <i class="fa fa-spinner fa-spin"></i>
+            <span class="text-dark" data-t="<%- t %>">Grid is being generated...</span>
+          </div>
+          <button data-action="abortGeneration" class="btn-outline-danger btn"
+              title="Abort generation" data-t="<%- t %>">
+            <i class="fas fa-ban"></i>
           </button>
         </div>
 
-        <div data-group="grid" class="hide-on-auto-fill btn-group">
+
+        <div data-group="grid" class="hide-on-auto-fill hide-on-generating btn-group">
           <button data-action="deleteBlock" class="btn-outline-secondary btn"
               title="Delete block" data-t="<%- t %>">
             <i class="fas fa-unlink"></i>
@@ -124,14 +137,14 @@ const t = `meta.${attr.view.translationKey}`;
         </div>
 
         <div data-group="clues">
-          <button data-action="reloadClues" class="btn-outline-secondary btn" title="Reload clues" data-t="<%- t %>">
+          <button data-action="reloadClues" class="btn-outline-secondary btn"
+              title="Reload clues" data-t="<%- t %>">
             <i class="fa fa-redo-alt"></i>
           </button>
         </div>
       </div>
 
-      <div class="puzzle-clue-notification">
-      </div>
+      <div class="puzzle-clue-notification"></div>
 
       <div class="puzzle-pane-grid puzzle-pane">
         <div class="puzzle-grid-wrapper">
@@ -158,4 +171,46 @@ const t = `meta.${attr.view.translationKey}`;
       </div>
     </div>
   </div>
+
+  <template data-id="gridGeneratorForm">
+    <div class="form">
+      <div class="alert-danger alert hidden"></div>
+      <div class="form-attr form-group">
+        <div class="form-check">
+          <input name="verticalSymmetry" class="form-check-input" type="checkbox">
+          <label class="form-check-label" data-t="">Vertical symmetry</label>
+        </div>
+      </div>
+      <div class="form-attr form-group">
+        <div class="form-check">
+          <input name="horizontalSymmetry" class="form-check-input" type="checkbox">
+          <label class="form-check-label" data-t="">Horizontal symmetry</label>
+        </div>
+      </div>
+      <hr>
+      <% for (let i = 2; i <= 15; ++i ) { %>
+      <div class="generator-block-row row">
+        <div class="col-md-5">
+          <div class="form-attr form-group">
+            <div class="form-check">
+              <input name="size<%- i %>" class="form-check-input" type="checkbox">
+              <label class="form-check-label"><span data-t="">Block size</span> <%- i %></label>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-7">
+          <div class="form-attr form-group row required">
+            <label class="col-md-6 col-form-label">
+              <span class="col-form-label-text" data-t="">Priority</span>
+            </label>
+            <div class="col-md-6">
+              <input name="priority<%- i %>" type="number" class="form-control" step="any">
+              <div class="error-block"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <% } %>
+    </div>
+  </template>
 </div>

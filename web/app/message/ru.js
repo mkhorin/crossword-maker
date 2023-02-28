@@ -11,6 +11,8 @@ Object.assign(Jam.I18n.defaults, {
 
     'Across:': 'По горизонтали:',
 
+    'Block size': 'Размер блока',
+
     'Cancel': 'Отменить',
     'Cell font factor': 'Коэффициент шрифта клетки',
     'Clues are not ready': 'Подсказки не готовы',
@@ -26,7 +28,11 @@ Object.assign(Jam.I18n.defaults, {
     'Export to PDF': 'Экспорт в PDF',
     'Export words': 'Экспортировать слова',
 
+    'Generate': 'Генерировать',
+    'Grid generation parameters': 'Параметры генерации сетки',
     'Grid is empty': 'Сетка кроссворда пустая',
+
+    'Horizontal symmetry': 'Горизонтальная симметрия',
 
     'Import words': 'Импортировать слова',
     'Input a new clue': 'Введите новую подсказку',
@@ -36,7 +42,11 @@ Object.assign(Jam.I18n.defaults, {
 
     'Landscape': 'Альбом',
 
+    'Max block size': 'Максимальный размер блока',
     'Max cell size': 'Максимальный размер клетки',
+    'Max priority is {max}': 'Максимальный приоритет - {max}',
+    'Min block size': 'Минимальный размер блока',
+    'Min size must be greater than or equal to max': 'Минимальный размер не более максимального',
 
     'No puzzles found': 'Кроссворды не найдены',
 
@@ -45,12 +55,17 @@ Object.assign(Jam.I18n.defaults, {
     'Page orientation': 'Ориентация',
     'Portal': 'Портал',
     'Portrait': 'Портрет',
+    'Priority': 'Приоритет',
+    'Priority must be a integer': 'Приоритет должен быть целым',
+    'Priority must be positive': 'Приоритет должен быть положительным',
 
     'Remove all words?': 'Удалить все слова?',
 
     'Select a clue': 'Выберите подсказку',
     'Select a word': 'Выберите слово',
     'Show answers': 'Показать ответы',
+    'Size must be no greater than {size}': 'Размер должен быть не более {size}',
+    'Size must be at least {size}': 'Размер должен быть не менее {size}',
     'Skip new words': 'Пропускать новые слова',
     'Starts with...': 'Начинается с...',
 
@@ -59,6 +74,8 @@ Object.assign(Jam.I18n.defaults, {
     'This grid cannot be filled': 'Эта сетка не может быть заполнена',
     'This word has no clue': 'Это слово не имеет подсказки',
     'Too many words (max {max})': 'Слишком много слов (макс. {max})',
+
+    'Vertical symmetry': 'Вертикальная симметрия',
 
     'Word is not selected': 'Слово не выбрано',
 
@@ -74,6 +91,8 @@ Object.assign(Jam.I18n.defaults, {
  */
 Jam.I18n.meta = {
 
+    'Abort auto filling': 'Прервать автозаполнение',
+    'Abort generation': 'Прервать генерацию',
     'All': 'Все',
     'Any word or clue can be associated with several themes': 'Любое слово или подсказка могут быть связаны с несколькими темами',
     'Auto filling...': 'Автозаполнение...',
@@ -95,7 +114,9 @@ Jam.I18n.meta = {
     'Edit puzzle': 'Редактировать кроссворд',
     'English words': 'Английские слова',
 
+    'Generate grid': 'Генерировать сетку',
     'Grid': 'Сетка',
+    'Grid is being generated...': 'Генерация сетки...',
 
     'Height': 'Высота',
 

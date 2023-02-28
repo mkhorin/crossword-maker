@@ -18,8 +18,8 @@ Jam.Utility.CreatePuzzlePdf = class CreatePuzzlePdf extends Jam.Utility {
         if (this.checkModelChanges()) {
             return event.preventDefault();
         }
-        const content = Jam.Helper.getTemplate('createPuzzlePdfForm');
-        Jam.dialog.show(content, {
+        const template = Jam.Helper.getTemplate('createPuzzlePdfForm');
+        Jam.dialog.show(template, {
             css: 'primary export-pdf-dialog',
             title:'Export to PDF',
             submitText: 'Export',

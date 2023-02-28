@@ -167,8 +167,8 @@ class PuzzleGrid {
         return new this.PuzzleCell(this, ...arguments);
     }
 
-    createBlocks () {
-        this.blocks = this.PuzzleBlock.createBlocks(this.puzzle.data, this);
+    createBlocks (data) {
+        this.blocks = this.PuzzleBlock.createBlocks(data, this);
     }
 
     createBlock () {
@@ -188,7 +188,7 @@ class PuzzleGrid {
         this.$container.css('--rows', this.height);
         this.deselectBlock();
         this.createCells();
-        this.createBlocks();
+        this.createBlocks(this.puzzle.data);
         this.draw();
         this.triggerChange();
     }
