@@ -9,7 +9,7 @@ Portal.CluesService = {
 
         props.$clues = {
             async getById (id) {
-                if (!Object.prototype.hasOwnProperty.call(clueMap, id)) {
+                if (!Object.hasOwn(clueMap, id)) {
                     await loadById(id);
                 }
                 return clueMap[id];

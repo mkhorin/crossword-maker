@@ -98,7 +98,7 @@ class PuzzleSolverBlock {
 
     setWordsByLetters (letters, position) {
         this.words = this.words.filter(word => {
-            return Object.prototype.hasOwnProperty.call(letters, word[position]);
+            return Object.hasOwn(letters, word[position]);
         });
     }
 

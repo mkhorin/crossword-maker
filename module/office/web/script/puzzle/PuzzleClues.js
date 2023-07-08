@@ -75,7 +75,7 @@ class PuzzleClues {
     }
 
     getWordClues (word) {
-        return Object.prototype.hasOwnProperty.call(this.clueMap, word)
+        return Object.hasOwn(this.clueMap, word)
             ? this.clueMap[word]
             : null;
     }

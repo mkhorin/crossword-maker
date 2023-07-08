@@ -1,6 +1,6 @@
 {
   "name": "crossword-maker",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Creating and solving crossword puzzles",
   "author": "Maxim Khorin",
   "license": "MIT",
@@ -20,7 +20,7 @@
     "evado-module-admin": "~5.3.0",
     "evado-module-office": "~5.5.0",
     "evado-module-studio": "~5.5.0",
-    "sharp": "~0.31.0"
+    "sharp": "~0.32.0"
   },
   "scripts": {
     "start": "node console/start"
