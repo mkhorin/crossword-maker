@@ -12,6 +12,7 @@
     {
       "name": "word",
       "eagerLoading": true,
+      "eagerView": "valuesOnly",
       "orderNumber": 20
     },
     {

@@ -36,6 +36,10 @@ module.exports = {
             type: 'view',
             class: 'clue',
             view: 'list'
+        }, {
+            type: 'view',
+            class: 'word',
+            view: 'valuesOnly'
         }]
     }],
 
