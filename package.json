@@ -1,6 +1,6 @@
 {
   "name": "crossword-maker",
-  "version": "1.3.1",
+  "version": "1.3.2",
   "description": "Creating and solving crossword puzzles",
   "author": "Maxim Khorin",
   "license": "MIT",

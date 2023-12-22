@@ -17,20 +17,17 @@ module.exports = class ImportWordsUtility extends Base {
         }
         const metaParams = await this.resolveMetaParams();
         const meta = metaParams.class.meta;
-
         this.languageClass = meta.getClass('language');
         this.themeClass = meta.getClass('theme');
         this.wordClass = meta.getClass('word');
         this.wordToThemeClass = meta.getClass('wordToTheme');
         this.clueClass = meta.getClass('clue');
         this.clueToThemeClass = meta.getClass('clueToTheme');
-
         this.language = await this.resolveLanguageId(request.language);
         this.theme = request.theme
             ? await this.resolveThemeId(request.theme)
             : null;
         this.skipNewWords = request.skipNewWords;
-
         for (const item of items) {
             await this.processItem(item);
         }

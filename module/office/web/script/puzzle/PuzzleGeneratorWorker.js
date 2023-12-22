@@ -253,7 +253,7 @@ class PuzzleGeneratorWorker {
     setBlock (block, {x, y}) {
         block.x = x;
         block.y = y;
-        let horizontal = block.horizontal;
+        let {horizontal} = block;
         let dx = horizontal ? 1 : 0;
         let dy = horizontal ? 0 : 1;
         for (let i = 0; i < block.size; ++i) {

@@ -10,19 +10,16 @@ module.exports = class ExportWordsUtility extends Base {
     async execute () {
         const request = this.postParams;
         const metaParams = await this.resolveMetaParams();
-
         this.meta = metaParams.class.meta;
         this.language = await this.resolveLanguage(request.language);
         this.themeMap = await this.getThemeMap();
         this.wordThemeMap = await this.getWordThemeMap();
-
         const words = await this.getWords();
         const themes = Object
             .values(this.themeMap)
             .map(({name, words}) => ({name, words}))
             .filter(({words}) => words.length);
         const file = this.language.get('code');
-
         await this.createFile(file, {words, themes});
         this.controller.sendText('Word export is done');
     }

@@ -28,7 +28,7 @@ Portal.PuzzleView = {
         async onCreatePdf () {
             try {
                 this.loading = true;
-                const type = this.item.type;
+                const {type} = this.item;
                 const words = this.$refs.puzzle.getSourceWords();
                 const clues = await this.$clues.getByWords(words);
                 const Class = PdfExport.getClassByType(type);

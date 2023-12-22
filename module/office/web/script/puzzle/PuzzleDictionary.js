@@ -43,7 +43,7 @@ class PuzzleDictionary {
 
     onSelectWord ({target}) {
         this.selectByElement($(target));
-        const word = target.dataset.word;
+        const {word} = target.dataset;
         this.events.trigger(this.constructor.WORD_SELECT_EVENT, {word});
     }
 

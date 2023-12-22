@@ -53,7 +53,7 @@ class PdfExportScan extends PdfExport {
     }
 
     drawLabelArrow (cell, x, y) {
-        const cellSize = this.cellSize;
+        const {cellSize} = this;
         const cellHalf = cellSize / 2;
         const block = cell.label;
         const start = block.getFirstCell();

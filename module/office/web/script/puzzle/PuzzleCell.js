@@ -131,7 +131,7 @@ class PuzzleCell {
     }
 
     getNextBlock (current) {
-        const blocks = this.blocks;
+        const {blocks} = this;
         const first = blocks[0];
         if (blocks.length < 2) {
             return first === current ? null : first;

@@ -47,7 +47,7 @@ Portal.FetchService = {
         }
 
         function fetchBy (name, url, data, params) {
-            const csrf = options.csrf;
+            const {csrf} = options;
             const fetch = new Jam.Fetch;
             return fetch[name](url, {csrf, ...data}, params);
         }

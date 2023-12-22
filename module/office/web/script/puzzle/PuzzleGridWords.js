@@ -34,7 +34,7 @@ class PuzzleGridWords {
     }
 
     onSelectWord ({target}) {
-        const word = target.dataset.word;
+        const {word} = target.dataset;
         this.selectByElement($(target));
     }
 
